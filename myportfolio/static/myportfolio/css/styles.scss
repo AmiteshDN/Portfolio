@@ -1,0 +1,13 @@
+@import "./variables";
+
+body{
+    background-color: $primary-color;
+    h1{
+        @include fourth-font-family();
+        font-size: $p-font-size;
+        &:hover{
+            color: $third-color;
+        }
+
+    }
+}

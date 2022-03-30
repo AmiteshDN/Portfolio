@@ -1,0 +1,42 @@
+/* Colors */
+$primary-color : #F6F6F6;
+$secondary-color: #435560;
+$third-color: #65C18C;
+$fourth-color:  #8FD9A8;
+
+/* Font Family */
+@mixin primary-font-family {
+    font-family: 'Exo 2', sans-serif;   //body p
+    font-weight: 400;
+}
+
+@mixin secondary-font-family {
+    font-family: 'Exo 2', sans-serif;   //body heading
+    font-weight: 500;
+}
+
+@mixin third-font-family {
+    font-family: 'Noto Serif', serif;    //Cover page greet
+    font-weight: 400;
+}
+
+@mixin fourth-font-family {
+    font-family: 'Cedarville Cursive', cursive;     //About me
+    font-weight: 400;
+}
+
+@mixin fifth-font-family {
+    font-family: 'Roboto', sans-serif;  //Role
+    font-weight: 400;
+}
+
+
+/* Font size */
+$h1-font-size: 42px;
+$h2-font-size: 24px;
+$h3-font-size: 22px;
+$h4-font-size: 18px;
+$p-font-size : 16px
+
+
+

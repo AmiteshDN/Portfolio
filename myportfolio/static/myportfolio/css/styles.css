@@ -1,0 +1,17 @@
+/* Colors */
+/* Font Family */
+/* Font size */
+body {
+  background-color: #F6F6F6;
+}
+
+body h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+body h1:hover {
+  color: #65C18C;
+}
+/*# sourceMappingURL=styles.css.map */
