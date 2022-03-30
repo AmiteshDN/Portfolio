@@ -1,17 +1,21 @@
 /* Colors */
 /* Font Family */
-/* Font size */
-body {
+/* Web Font size */
+/* Mobile Font size */
+header {
   background-color: #F6F6F6;
+  position: absolute;
+  top: 0;
 }
 
-body h1 {
-  font-family: 'Cedarville Cursive', cursive;
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  font-family: 'Exo 2', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-}
-
-body h1:hover {
-  color: #65C18C;
+  margin-left: 60px;
+  color: #435560;
 }
 /*# sourceMappingURL=styles.css.map */

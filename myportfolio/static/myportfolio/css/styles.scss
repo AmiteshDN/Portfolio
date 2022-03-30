@@ -1,13 +1,17 @@
 @import "./variables";
 
-body{
+header{
     background-color: $primary-color;
-    h1{
-        @include fourth-font-family();
-        font-size: $p-font-size;
-        &:hover{
-            color: $third-color;
+    position: absolute;
+    top: 0;
+    nav{
+        margin-top: 10px;
+        a{
+            @include primary-font-family();
+            margin-left: 60px;
+            color: $secondary-color;
+      
         }
-
     }
 }
+
