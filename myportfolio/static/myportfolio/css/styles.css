@@ -6,6 +6,11 @@ header {
   background-color: #F6F6F6;
   position: absolute;
   top: 0;
+  height: 100%;
+}
+
+header h1 {
+  color: #435560;
 }
 
 header nav {
@@ -17,5 +22,16 @@ header nav a {
   font-weight: 400;
   margin-left: 60px;
   color: #435560;
+}
+
+header img {
+  height: 364px;
+  width: 364px;
+  border-radius: 50%;
+}
+
+header .software {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
 }
 /*# sourceMappingURL=styles.css.map */

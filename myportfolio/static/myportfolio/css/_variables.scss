@@ -2,31 +2,36 @@
 $primary-color : #F6F6F6;
 $secondary-color: #435560;
 $third-color: #65C18C;
-$fourth-color:  #8FD9A8;
+$fourth-color: #8FD9A8;
 
 /* Font Family */
 @mixin primary-font-family {
-    font-family: 'Exo 2', sans-serif;   //body p
+    font-family: 'Exo 2', sans-serif; //body p
     font-weight: 400;
 }
 
 @mixin secondary-font-family {
-    font-family: 'Exo 2', sans-serif;   //body heading
+    font-family: 'Exo 2', sans-serif; //body heading
     font-weight: 500;
 }
 
 @mixin third-font-family {
-    font-family: 'Noto Serif', serif;    //Cover page greet
+    font-family: 'Noto Serif', serif; //Cover page greet
     font-weight: 400;
 }
 
 @mixin fourth-font-family {
-    font-family: 'Cedarville Cursive', cursive;     //About me
+    font-family: 'Cedarville Cursive', cursive; //About me
     font-weight: 400;
 }
 
 @mixin fifth-font-family {
-    font-family: 'Roboto', sans-serif;  //Role
+    font-family: 'Roboto', sans-serif; //Role
+    font-weight: 400;
+}
+
+@mixin sixth-font-family {
+    font-family: 'Courier New', Courier, monospace; //Role
     font-weight: 400;
 }
 
@@ -45,6 +50,3 @@ $p-web-font-size : 16px;
 // $h3-mob-font-size: 10px;
 // $h4-mob-font-size: 9px;
 // $p-mob-font-size: 8px;
-
-
-

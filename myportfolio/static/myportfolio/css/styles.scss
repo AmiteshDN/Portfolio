@@ -1,16 +1,32 @@
 @import "./variables";
 
-header{
+header {
     background-color: $primary-color;
     position: absolute;
     top: 0;
-    nav{
+    height: 100%;
+
+    h1 {
+        color: $secondary-color;
+    }
+
+    nav {
         margin-top: 10px;
-        a{
+
+        a {
             @include primary-font-family();
             margin-left: 60px;
             color: $secondary-color;
         }
     }
-}
 
+    img {
+        height: 364px;
+        width: 364px;
+        border-radius: 50%;
+    }
+
+    .software {
+        @include sixth-font-family();
+    }
+}
