@@ -3,35 +3,73 @@
 /* Web Font size */
 /* Mobile Font size */
 header {
-  background-color: #F6F6F6;
-  position: absolute;
+  background: linear-gradient(132deg, #F6F6F6 70%, #435560 30%);
   top: 0;
-  height: 100%;
 }
 
-header h1 {
-  color: #435560;
+header .navbar {
+  padding: 30px 50px 0 0;
 }
 
-header nav {
-  margin-top: 10px;
-}
-
-header nav a {
+header a {
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   margin-left: 60px;
   color: #435560;
 }
 
-header img {
+header a:hover {
+  color: black;
+}
+
+.banner {
+  height: 100%;
+  margin-right: 0 !important;
+  padding: 20vh 0;
+}
+
+.banner h1 {
+  color: #435560;
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+}
+
+.banner img {
   height: 364px;
   width: 364px;
   border-radius: 50%;
+  -webkit-box-shadow: 5px 8px 12px black;
+          box-shadow: 5px 8px 12px black;
 }
 
-header .software {
+.banner .greet {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-left: 30px;
+}
+
+.banner .software {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
+}
+
+.banner .resume {
+  background-color: #435560;
+  color: #fff;
+  padding: 14px 38px;
+  margin-left: 0;
+  position: inherit;
+  top: 20px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 3px 5px gray;
+          box-shadow: 0px 3px 5px gray;
+}
+
+.banner .resume:hover {
+  background-color: #2a3e4b;
+  text-decoration: none;
 }
 /*# sourceMappingURL=styles.css.map */

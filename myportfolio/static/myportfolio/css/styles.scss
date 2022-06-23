@@ -1,32 +1,69 @@
 @import "./variables";
 
 header {
-    background-color: $primary-color;
-    position: absolute;
+    background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
+    // position: absolute;
     top: 0;
+
+    .navbar {
+        padding: 30px 50px 0 0;
+    }
+
+    a {
+        @include primary-font-family();
+        margin-left: 60px;
+        color: $secondary-color;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.banner {
+
     height: 100%;
+    margin-right: 0 !important;
+    padding: 20vh 0;
 
     h1 {
         color: $secondary-color;
-    }
-
-    nav {
-        margin-top: 10px;
-
-        a {
-            @include primary-font-family();
-            margin-left: 60px;
-            color: $secondary-color;
-        }
+        @include third-font-family();
     }
 
     img {
         height: 364px;
         width: 364px;
         border-radius: 50%;
+        box-shadow: 5px 8px 12px black;
+
+    }
+
+    .greet {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-left: 30px;
     }
 
     .software {
         @include sixth-font-family();
+    }
+
+    .resume {
+        background-color: $secondary-color;
+        color: #fff;
+        padding: 14px 38px;
+        margin-left: 0;
+        position: inherit;
+        top: 20px;
+        border-radius: 30px;
+        box-shadow: 0px 3px 5px gray;
+
+        &:hover {
+            background-color: #2a3e4b;
+            text-decoration: none;
+        }
     }
 }
