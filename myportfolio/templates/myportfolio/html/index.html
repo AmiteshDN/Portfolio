@@ -18,7 +18,7 @@
     <title>My Portfolio</title>
 </head>
 
-<body>
+<body onload="typeWriter()">
     <header class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg">
@@ -53,7 +53,8 @@
                 <div class="greet">
                     <h1>Hi! I am</h1>
                     <h1><b>Amitesh Veeragattam,</b></h1>
-                    <h1><span class="software">Software</span> Developer.</h1>
+                    <h1><span id="software" style="font-family: 'Courier New', Courier, monospace ;"></span> Developer.
+                    </h1>
                     <a href="{% static 'myportfolio/images/pdf.pdf' %}" class="resume" download>Download Resume</a>
                 </div>
             </div>
@@ -68,6 +69,19 @@
 
 </body>
 
+<script>
+    var i = 0;
+    var txt = '<Software>';
+    var speed = 150;
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("software").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+</script>
 <!-- Preloaded Javascript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -78,6 +92,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
 
 </html>
 

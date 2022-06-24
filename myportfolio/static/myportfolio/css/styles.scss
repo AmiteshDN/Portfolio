@@ -47,10 +47,6 @@ header {
         margin-left: 30px;
     }
 
-    .software {
-        @include sixth-font-family();
-    }
-
     .resume {
         background-color: $secondary-color;
         color: #fff;
