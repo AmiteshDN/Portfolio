@@ -49,18 +49,19 @@
         </nav>
 
         <div class="row banner">
-            <div class="col-lg-6" style="text-align: center;">
-                <div class="greet">
+            <div class="col-lg-6 greet" style="text-align: center;">
+                <div>
                     <h1>Hi! I am</h1>
                     <h1><b>Amitesh Veeragattam,</b></h1>
                     <h1><span id="software" style="font-family: 'Courier New', Courier, monospace ;"></span> Developer.
                     </h1>
-                    <a href="{% static 'myportfolio/images/pdf.pdf' %}" class="resume" download>Download Resume</a>
+                    <div class="pdf">
+                        <a href="{% static 'myportfolio/images/pdf.pdf' %}" class="resume" download>Download Resume</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 left   " style="text-align: center;">
-
-                <img class="profile" src="{% static 'myportfolio/images/profile.jpg' %}" alt="Profile Photo" />
+            <div class="col-lg-6 profile" style="text-align: center;">
+                <img src="{% static 'myportfolio/images/profile.jpg' %}" alt="Profile Photo" />
             </div>
         </div>
     </header>
@@ -69,7 +70,7 @@
 
 </body>
 
-<script src="{% static 'myportfolio/js/index.js' %}" type="text/javascript">console.log("index")</script>
+<script src="{% static 'myportfolio/js/index.js' %}" type="text/javascript"></script>
 <!-- Preloaded Javascript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
