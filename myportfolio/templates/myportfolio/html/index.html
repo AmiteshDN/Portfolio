@@ -18,7 +18,7 @@
     <title>My Portfolio</title>
 </head>
 
-<body onload="typeWriter()">
+<body>
     <header class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg">
@@ -69,19 +69,7 @@
 
 </body>
 
-<script>
-    var i = 0;
-    var txt = '<Software>';
-    var speed = 150;
-
-    function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("software").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
-    }
-</script>
+<script src="{% static 'myportfolio/js/index.js' %}" type="text/javascript">console.log("index")</script>
 <!-- Preloaded Javascript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
