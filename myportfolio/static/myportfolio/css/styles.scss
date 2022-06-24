@@ -1,5 +1,6 @@
 @import "./variables";
 
+// Landing page
 header {
     background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
     top: 0;
@@ -60,4 +61,14 @@ header {
 
     }
 
+}
+
+// Experience
+
+.experience {
+    text-align: center;
+
+    .row {
+        text-align: center;
+    }
 }

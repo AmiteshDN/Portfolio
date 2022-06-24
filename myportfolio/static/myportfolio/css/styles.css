@@ -62,4 +62,12 @@ header .banner img {
   -webkit-box-shadow: 5px 8px 12px black;
           box-shadow: 5px 8px 12px black;
 }
+
+.experience {
+  text-align: center;
+}
+
+.experience .row {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
