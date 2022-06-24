@@ -1,3 +1,4 @@
+// dynamic software text
 var i = 0;
 var txt = '<Software>';
 var speed = 150;
