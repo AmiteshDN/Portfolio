@@ -11,7 +11,7 @@ header {
     }
 
     a {
-        @include primary-font-family();
+        @include fifth-font-family();
         margin-left: 60px;
         color: $secondary-color;
 
