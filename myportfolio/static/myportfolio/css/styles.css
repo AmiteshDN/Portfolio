@@ -63,8 +63,13 @@ header .banner img {
           box-shadow: 5px 8px 12px black;
 }
 
+hr {
+  width: 15%;
+  border-top: 2px solid #6E7C7C;
+}
+
 .experience {
-  padding: 50px 50px;
+  padding: 75px 50px;
   text-align: center;
 }
 
@@ -81,5 +86,17 @@ header .banner img {
 .experience .row .exp-img {
   width: 464px;
   height: 356px;
+}
+
+.project1 {
+  background: linear-gradient(47deg, #fff 70%, #F6F6F6 30%);
+}
+
+.project2 {
+  background: linear-gradient(45deg, #F6F6F6 30%, #fff 30%);
+}
+
+.project3 {
+  background: linear-gradient(132deg, #F6F6F6 30%, #fff 30%);
 }
 /*# sourceMappingURL=styles.css.map */

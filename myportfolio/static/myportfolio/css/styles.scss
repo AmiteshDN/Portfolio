@@ -65,9 +65,13 @@ header {
 }
 
 // Experience
+hr {
+    width: 15%;
+    border-top: 2px solid #6E7C7C;
+}
 
 .experience {
-    padding: 50px 50px;
+    padding: 75px 50px;
     text-align: center;
 
     .row {
@@ -84,4 +88,17 @@ header {
             height: 356px;
         }
     }
+
+}
+
+.project1 {
+    background: linear-gradient(47deg, #fff 70%, $primary-color 30%);
+}
+
+.project2 {
+    background: linear-gradient(45deg, $primary-color 30%, #fff 30%);
+}
+
+.project3 {
+    background: linear-gradient(132deg, $primary-color 30%, #fff 30%);
 }
