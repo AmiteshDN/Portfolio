@@ -8,6 +8,7 @@ header {
 
     .navbar {
         padding: 30px 50px 0 0;
+
     }
 
     a {
@@ -66,9 +67,21 @@ header {
 // Experience
 
 .experience {
+    padding: 50px 50px;
     text-align: center;
 
     .row {
-        text-align: center;
+        padding: 50px 50px;
+
+        .desc {
+            text-align: left;
+            width: 550px;
+            line-height: 2;
+        }
+
+        .exp-img {
+            width: 464px;
+            height: 356px;
+        }
     }
 }

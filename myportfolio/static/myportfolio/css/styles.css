@@ -64,10 +64,22 @@ header .banner img {
 }
 
 .experience {
+  padding: 50px 50px;
   text-align: center;
 }
 
 .experience .row {
-  text-align: center;
+  padding: 50px 50px;
+}
+
+.experience .row .desc {
+  text-align: left;
+  width: 550px;
+  line-height: 2;
+}
+
+.experience .row .exp-img {
+  width: 464px;
+  height: 356px;
 }
 /*# sourceMappingURL=styles.css.map */
