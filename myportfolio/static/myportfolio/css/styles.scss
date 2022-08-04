@@ -69,8 +69,8 @@ header {
 hr {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    width: 15%;
-    border-top: 2px dashed #6E7C7C;
+    width: 10%;
+    border-top: 1px solid #6E7C7C;
 }
 
 #experience {
@@ -100,15 +100,15 @@ hr {
     }
 
     .project1 {
-        background: linear-gradient(45deg, #fff 70%, $primary-color 30%);
+        background: linear-gradient(48deg, #fff 70%, $primary-color 30%);
     }
 
     .project2 {
-        background: linear-gradient(41deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(43deg, $primary-color 30%, #fff 30%);
     }
 
     .project3 {
-        background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(138deg, $primary-color 30%, #fff 30%);
     }
 
 }

@@ -67,8 +67,8 @@ header .banner img {
 hr {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-  width: 15%;
-  border-top: 2px dashed #6E7C7C;
+  width: 10%;
+  border-top: 1px solid #6E7C7C;
 }
 
 #experience {
@@ -98,14 +98,14 @@ hr {
 }
 
 #experience .project1 {
-  background: linear-gradient(45deg, #fff 70%, #F6F6F6 30%);
+  background: linear-gradient(48deg, #fff 70%, #F6F6F6 30%);
 }
 
 #experience .project2 {
-  background: linear-gradient(41deg, #F6F6F6 30%, #fff 30%);
+  background: linear-gradient(43deg, #F6F6F6 30%, #fff 30%);
 }
 
 #experience .project3 {
-  background: linear-gradient(137deg, #F6F6F6 30%, #fff 30%);
+  background: linear-gradient(138deg, #F6F6F6 30%, #fff 30%);
 }
 /*# sourceMappingURL=styles.css.map */
