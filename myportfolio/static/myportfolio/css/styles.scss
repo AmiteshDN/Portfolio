@@ -4,6 +4,7 @@
 header {
     background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
     top: 0;
+    height: 100vh;
 
 
     .navbar {
@@ -66,18 +67,17 @@ header {
 
 // Experience
 hr {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     width: 15%;
     border-top: 2px dashed #6E7C7C;
 }
 
 #experience {
     text-align: center;
-    padding-top: 50px;
 
     .row {
-        padding: 100px 0;
-
-        .col-lg-6 {}
+        padding: 50px 0;
 
         .desc {
             width: 550px;
@@ -89,19 +89,26 @@ hr {
             width: 464px;
             height: 356px;
         }
+
     }
 
-}
+    .project1,
+    .project2,
+    .project3 {
+        padding: 100px 10% 0;
+        height: 100vh;
+    }
 
+    .project1 {
+        background: linear-gradient(45deg, #fff 70%, $primary-color 30%);
+    }
 
-.project1 {
-    background: linear-gradient(47deg, #fff 70%, $primary-color 30%);
-}
+    .project2 {
+        background: linear-gradient(41deg, $primary-color 30%, #fff 30%);
+    }
 
-.project2 {
-    background: linear-gradient(45deg, $primary-color 30%, #fff 30%);
-}
+    .project3 {
+        background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
+    }
 
-.project3 {
-    background: linear-gradient(132deg, $primary-color 30%, #fff 30%);
 }
