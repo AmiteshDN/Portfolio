@@ -65,25 +65,25 @@ header .banner img {
 
 hr {
   width: 15%;
-  border-top: 2px solid #6E7C7C;
+  border-top: 2px dashed #6E7C7C;
 }
 
-.experience {
-  padding: 75px 50px;
+#experience {
   text-align: center;
+  padding-top: 50px;
 }
 
-.experience .row {
-  padding: 50px 50px;
+#experience .row {
+  padding: 100px 0;
 }
 
-.experience .row .desc {
-  text-align: left;
+#experience .row .desc {
   width: 550px;
   line-height: 2;
+  text-align: left;
 }
 
-.experience .row .exp-img {
+#experience .row .exp-img {
   width: 464px;
   height: 356px;
 }

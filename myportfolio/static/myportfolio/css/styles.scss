@@ -67,20 +67,22 @@ header {
 // Experience
 hr {
     width: 15%;
-    border-top: 2px solid #6E7C7C;
+    border-top: 2px dashed #6E7C7C;
 }
 
-.experience {
-    padding: 75px 50px;
+#experience {
     text-align: center;
+    padding-top: 50px;
 
     .row {
-        padding: 50px 50px;
+        padding: 100px 0;
+
+        .col-lg-6 {}
 
         .desc {
-            text-align: left;
             width: 550px;
             line-height: 2;
+            text-align: left;
         }
 
         .exp-img {
@@ -90,6 +92,7 @@ hr {
     }
 
 }
+
 
 .project1 {
     background: linear-gradient(47deg, #fff 70%, $primary-color 30%);
