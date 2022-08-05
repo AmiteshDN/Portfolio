@@ -93,7 +93,7 @@ hr {
 #experience .project1,
 #experience .project2,
 #experience .project3 {
-  padding: 100px 10% 0;
+  padding: 75px 10% 0;
   height: 100vh;
 }
 
@@ -106,6 +106,44 @@ hr {
 }
 
 #experience .project3 {
-  background: linear-gradient(138deg, #F6F6F6 30%, #fff 30%);
+  background: linear-gradient(137deg, #F6F6F6 30%, #fff 30%);
+}
+
+#myskills {
+  padding: 75px 10% 0;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(132deg, #fff 70%, #F6F6F6 30%);
+}
+
+#myskills .row {
+  margin-top: 50px;
+  text-align: left;
+}
+
+#myskills .row table {
+  margin-top: 30px;
+}
+
+#myskills .row table td {
+  padding: 10px 10px 10px;
+}
+
+#myskills .row table td div {
+  width: 400px;
+  height: 20px;
+  -webkit-box-shadow: 0px 1px 3px gray;
+          box-shadow: 0px 1px 3px gray;
+}
+
+#myskills .row table td div .progress-bar {
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #8FD9A8), color-stop(70%, #65C18C));
+  background: linear-gradient(90deg, #8FD9A8 30%, #65C18C 70%);
+}
+
+#about {
+  padding: 75px 10% 0;
+  height: 100vh;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */

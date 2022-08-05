@@ -95,7 +95,7 @@ hr {
     .project1,
     .project2,
     .project3 {
-        padding: 100px 10% 0;
+        padding: 75px 10% 0;
         height: 100vh;
     }
 
@@ -108,7 +108,44 @@ hr {
     }
 
     .project3 {
-        background: linear-gradient(138deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
     }
 
+}
+
+// My skills
+#myskills {
+    padding: 75px 10% 0;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
+
+    .row {
+        margin-top: 50px;
+        text-align: left;
+
+        table {
+            margin-top: 30px;
+
+            td {
+                padding: 10px 10px 10px;
+
+                div {
+                    width: 400px;
+                    height: 20px;
+                    box-shadow: 0px 1px 3px gray;
+
+                    .progress-bar {
+                        background: linear-gradient(90deg, $fourth-color 30%, $third-color 70%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+#about {
+    padding: 75px 10% 0;
+    height: 100vh;
+    text-align: center;
 }
