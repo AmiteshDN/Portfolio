@@ -6,3 +6,6 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'myportfolio/html/index.html')
+
+def blog(request):
+    return render(request, 'myportfolio/html/blog.html')
