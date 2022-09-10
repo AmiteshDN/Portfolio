@@ -136,6 +136,7 @@ hr {
 #myskills .row .tools td p {
   margin-top: 10px;
   padding-left: 20px;
+  font-size: 16px;
 }
 
 #myskills .row .tools .softwares {
@@ -175,5 +176,33 @@ hr {
   font-weight: 400;
   width: 80%;
   margin: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #394750;
+  color: #fff;
+  padding: 50px 0 30px 0;
+  font-size: 18px;
+}
+
+footer .chat {
+  margin-bottom: 40px;
+}
+
+footer .contact {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #394750;
+  border-radius: 5px;
+}
+
+footer .social {
+  margin: 40px 0;
+}
+
+footer .social a {
+  margin-left: 50px;
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

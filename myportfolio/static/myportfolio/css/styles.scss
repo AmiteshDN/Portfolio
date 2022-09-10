@@ -139,6 +139,7 @@ hr {
                 p {
                     margin-top: 10px;
                     padding-left: 20px;
+                    font-size: $p-web-font-size;
                 }
             }
 
@@ -170,6 +171,8 @@ hr {
 
 }
 
+// About me
+
 #about {
     padding: 75px 10% 0;
     height: 100vh;
@@ -181,5 +184,35 @@ hr {
         @include fourth-font-family();
         width: 80%;
         margin: auto;
+    }
+}
+
+//Footer
+
+footer {
+    text-align: center;
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    font-size: $h4-web-font-size;
+
+    .chat {
+        margin-bottom: 40px;
+    }
+
+    .contact {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: $secondary-color;
+        border-radius: 5px;
+    }
+
+    .social {
+        margin: 40px 0;
+
+        a {
+            margin-left: 50px;
+            color: #fff;
+        }
     }
 }
