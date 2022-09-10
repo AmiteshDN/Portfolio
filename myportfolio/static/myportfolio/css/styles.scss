@@ -124,6 +124,29 @@ hr {
         margin-top: 50px;
         text-align: left;
 
+        .tools {
+
+            img {
+                width: 100px;
+                height: 100px;
+                box-shadow: 10px 10px 10px rgb(220, 220, 220);
+            }
+
+            td {
+                padding: 20px 20px;
+                margin: auto;
+
+                p {
+                    margin-top: 10px;
+                    padding-left: 20px;
+                }
+            }
+
+            .softwares {
+                margin: auto;
+            }
+        }
+
         table {
             margin-top: 30px;
 
@@ -139,13 +162,24 @@ hr {
                         background: linear-gradient(90deg, $fourth-color 30%, $third-color 70%);
                     }
                 }
+
             }
         }
+
     }
+
 }
 
 #about {
     padding: 75px 10% 0;
     height: 100vh;
     text-align: center;
+
+    .greet {
+        padding-top: 50px;
+        text-align: left;
+        @include fourth-font-family();
+        width: 80%;
+        margin: auto;
+    }
 }

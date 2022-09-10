@@ -121,6 +121,27 @@ hr {
   text-align: left;
 }
 
+#myskills .row .tools img {
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 10px 10px 10px gainsboro;
+          box-shadow: 10px 10px 10px gainsboro;
+}
+
+#myskills .row .tools td {
+  padding: 20px 20px;
+  margin: auto;
+}
+
+#myskills .row .tools td p {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#myskills .row .tools .softwares {
+  margin: auto;
+}
+
 #myskills .row table {
   margin-top: 30px;
 }
@@ -145,5 +166,14 @@ hr {
   padding: 75px 10% 0;
   height: 100vh;
   text-align: center;
+}
+
+#about .greet {
+  padding-top: 50px;
+  text-align: left;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: 400;
+  width: 80%;
+  margin: auto;
 }
 /*# sourceMappingURL=styles.css.map */
