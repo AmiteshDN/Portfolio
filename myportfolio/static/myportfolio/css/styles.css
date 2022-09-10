@@ -121,6 +121,10 @@ hr {
   text-align: left;
 }
 
+#myskills .row .tools table {
+  margin-left: 50px;
+}
+
 #myskills .row .tools img {
   width: 100px;
   height: 100px;
@@ -139,16 +143,12 @@ hr {
   font-size: 16px;
 }
 
-#myskills .row .tools .softwares {
-  margin: auto;
-}
-
 #myskills .row table {
   margin-top: 30px;
 }
 
 #myskills .row table td {
-  padding: 10px 10px 10px;
+  padding: 10px;
 }
 
 #myskills .row table td div {
