@@ -27,6 +27,7 @@ header .banner {
 }
 
 header .banner h1 {
+  font-size: 42px;
   color: #394750;
   font-family: 'Noto Serif', serif;
   font-weight: 400;
@@ -210,5 +211,27 @@ footer .social a {
   header .banner {
     padding: 0;
   }
+  header .banner h1 {
+    font-size: 22px;
+  }
+  header .banner .pdf .resume {
+    -webkit-box-shadow: 0px 1.5px 2.5px gray;
+            box-shadow: 0px 1.5px 2.5px gray;
+    padding: 14px 24px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  header .banner img {
+    height: 182px;
+    width: 182px;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 4px 6px gray;
+            box-shadow: 3px 4px 6px gray;
+    margin-top: 30px;
+  }
+}
+
+#experience .row .desc {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */

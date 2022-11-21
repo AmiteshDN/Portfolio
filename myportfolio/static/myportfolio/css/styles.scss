@@ -26,13 +26,14 @@ header {
         padding: 17vh 0;
 
         h1 {
+            font-size: $h1-web-font-size;
             color: $secondary-color;
             @include third-font-family();
         }
 
         .greet {
             margin-top: 70px;
-            ;
+
         }
 
         .pdf {
@@ -227,6 +228,41 @@ footer {
 
         .banner {
             padding: 0;
+
+            h1 {
+                font-size: $h2-mob-font-size;
+            }
+
+            .pdf {
+
+                .resume {
+                    box-shadow: 0px 1.5px 2.5px gray;
+                    padding: 14px 24px;
+                    font-size: $p-mob-font-size;
+                    border-radius: 20px;
+                }
+            }
+
+            img {
+                height: 182px;
+                width: 182px;
+                border-radius: 50%;
+                box-shadow: 3px 4px 6px gray;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+//Experience
+
+#experience {
+
+    .row {
+
+        .desc {
+            width: 100%;
         }
     }
 }
