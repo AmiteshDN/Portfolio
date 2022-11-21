@@ -4,7 +4,7 @@
 header {
     background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
     top: 0;
-    height: 100vh;
+    // 
 
 
     .navbar-light {
@@ -23,7 +23,7 @@ header {
     }
 
     .banner {
-        padding: 20vh 0;
+        padding: 17vh 0;
 
         h1 {
             color: $secondary-color;
@@ -95,8 +95,8 @@ hr {
     .project1,
     .project2,
     .project3 {
-        padding: 50px 7% 0;
-        height: 100vh;
+        padding: 75px 7% 0;
+
     }
 
     .project1 {
@@ -115,8 +115,8 @@ hr {
 
 // My skills
 #myskills {
-    padding: 75px 7% 0;
-    height: 100vh;
+    padding: 75px 7%;
+
     text-align: center;
     background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
 
@@ -173,8 +173,8 @@ hr {
 // About me
 
 #about {
-    padding: 75px 10% 0;
-    height: 100vh;
+    padding: 75px 10%;
+
     text-align: center;
 
     .greet {
@@ -217,3 +217,16 @@ footer {
 }
 
 //Mobile CSS
+@media only screen and (max-width: 900px) {
+
+    //Banner
+    header {
+        background: $primary-color;
+        top: 0;
+
+
+        .banner {
+            padding: 0;
+        }
+    }
+}

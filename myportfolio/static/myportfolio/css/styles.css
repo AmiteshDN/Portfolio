@@ -5,7 +5,6 @@
 header {
   background: linear-gradient(132deg, #F6F6F6 70%, #394750 30%);
   top: 0;
-  height: 100vh;
 }
 
 header .navbar-light {
@@ -24,7 +23,7 @@ header a:hover {
 }
 
 header .banner {
-  padding: 20vh 0;
+  padding: 17vh 0;
 }
 
 header .banner h1 {
@@ -93,8 +92,7 @@ hr {
 #experience .project1,
 #experience .project2,
 #experience .project3 {
-  padding: 50px 7% 0;
-  height: 100vh;
+  padding: 75px 7% 0;
 }
 
 #experience .project1 {
@@ -110,8 +108,7 @@ hr {
 }
 
 #myskills {
-  padding: 75px 7% 0;
-  height: 100vh;
+  padding: 75px 7%;
   text-align: center;
   background: linear-gradient(132deg, #fff 70%, #F6F6F6 30%);
 }
@@ -164,8 +161,7 @@ hr {
 }
 
 #about {
-  padding: 75px 10% 0;
-  height: 100vh;
+  padding: 75px 10%;
   text-align: center;
 }
 
@@ -204,5 +200,15 @@ footer .social {
 footer .social a {
   margin-left: 50px;
   color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    background: #F6F6F6;
+    top: 0;
+  }
+  header .banner {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
