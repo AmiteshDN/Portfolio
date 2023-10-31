@@ -4,8 +4,10 @@ $tablet-width: 1024px;
 $desktop-width: 1200px;
 
 
+
 //Mobile
 @media only screen and (max-width: $mobile-width) {
+
     //Banner
     header {
         background: $primary-color;
@@ -39,4 +41,39 @@ $desktop-width: 1200px;
         }
     }
     
+    //Experience
+    #experience{
+        padding: 3em 0;
+        h2{
+            font-size: $h2-mob-font-size;
+            color: $secondary-color;
+        }
+
+        h3{
+            font-size: $h3-mob-font-size;
+            color: $secondary-color;
+        }
+
+        .project1, .project2, .project3{
+            padding: 2em 1.5em;
+        }
+
+        .row{
+            padding: 1.5em 0;
+
+            .desc{
+                font-size: $p-mob-font-size;
+                line-height: 1.5em;
+                margin-bottom: 2em;
+                padding-top: 3.5em;
+            }
+
+            .exp-img{
+                width: 20em;
+                height: 20em;
+            }
+        }
+    }
+
+
   }

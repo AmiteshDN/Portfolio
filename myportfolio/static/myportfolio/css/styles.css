@@ -76,7 +76,7 @@ hr {
 #experience .project1,
 #experience .project2,
 #experience .project3 {
-  padding: 75px 7% 0;
+  padding: 8em 7% 0;
 }
 #myskills {
   padding: 75px 7%;
@@ -180,5 +180,32 @@ footer .social a {
     border-radius: 50%;
     box-shadow: 3px 4px 6px gray;
     margin: 3em;
+  }
+  #experience {
+    padding: 3em 0;
+  }
+  #experience h2 {
+    font-size: 22px;
+    color: #394750;
+  }
+  #experience h3 {
+    font-size: 20px;
+    color: #394750;
+  }
+  #experience .project1, #experience .project2, #experience .project3 {
+    padding: 2em 1.5em;
+  }
+  #experience .row {
+    padding: 1.5em 0;
+  }
+  #experience .row .desc {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+    padding-top: 3.5em;
+  }
+  #experience .row .exp-img {
+    width: 20em;
+    height: 20em;
   }
 }/*# sourceMappingURL=styles.css.map */
