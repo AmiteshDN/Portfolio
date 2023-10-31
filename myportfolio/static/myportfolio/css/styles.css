@@ -208,4 +208,53 @@ footer .social a {
     width: 20em;
     height: 20em;
   }
+  #myskills h2 {
+    font-size: 22px;
+  }
+  #myskills p, #myskills td {
+    font-size: 14px;
+  }
+  #myskills .row table td div {
+    width: 16em;
+    height: 1.5em;
+    box-shadow: 0px 1px 3px gray;
+  }
+  #myskills .row .tools {
+    margin-top: 3em;
+  }
+  #myskills .row .tools table {
+    margin-left: 0;
+  }
+  #myskills .row .tools table td p {
+    padding-left: 0.5em;
+    font-size: 14px;
+  }
+  #myskills .row .tools img {
+    width: 5em;
+    height: 5em;
+    box-shadow: 10px 10px 10px rgb(220, 220, 220);
+  }
+  #about h2 {
+    font-size: 22px;
+  }
+  #about h3 {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+  footer p, footer a {
+    font-size: 14px;
+  }
+  footer .chat {
+    margin-bottom: 20px;
+    width: auto;
+    padding: 0 2.5em;
+  }
+  footer .social {
+    text-align: center;
+    margin: 1.5em;
+  }
+  footer .social a {
+    display: block;
+    margin: 0 0 0.3em;
+  }
 }/*# sourceMappingURL=styles.css.map */

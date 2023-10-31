@@ -75,5 +75,85 @@ $desktop-width: 1200px;
         }
     }
 
+    //Skills
+    #myskills{
+        h2{
+            font-size: $h2-mob-font-size;
+        }
 
-  }
+        p, td{
+            font-size: $p-mob-font-size;
+        }
+
+        .row{
+            table{
+                td{
+                    div{
+                        width: 16em;
+                        height: 1.5em;
+                        box-shadow: 0px 1px 3px gray;
+                        }
+                    }
+                }
+
+            .tools{
+                margin-top: 3em;
+
+                table{
+                    margin-left: 0;
+
+                    td{
+
+                        p{
+                            padding-left: 0.5em;
+                            font-size: $p-mob-font-size;
+                        }
+                    }
+                }
+
+                img{
+                    width: 5em;
+                    height: 5em;
+                    box-shadow: 10px 10px 10px rgb(220, 220, 220);
+                }
+            }
+            }
+        }
+
+        //About
+        #about{
+            h2{
+                font-size: $h2-mob-font-size;
+            }
+
+            h3{
+                font-size: $p-mob-font-size;
+                line-height: 1.5em;
+            }
+        }
+
+        //Footer
+        footer{
+            p, a{
+                font-size: $p-mob-font-size;
+            }
+
+            .chat{
+                margin-bottom: 20px;
+                width: auto;
+                padding: 0 2.5em;
+            }
+
+            .social{
+                text-align: center;
+                margin: 1.5em;
+                a{
+                    display: block;
+                    margin: 0 0 0.3em;
+                }
+            }
+            
+        }
+    }
+
+  
