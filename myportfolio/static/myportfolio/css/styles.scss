@@ -1,5 +1,5 @@
 @import "./variables";
-@import "./media-queries";
+
 
 // Landing page
 header {
@@ -219,41 +219,10 @@ footer {
 }
 
 //Mobile CSS
-@media only screen and (max-width: 900px) {
+// @media only screen and (max-width: 900px) {
 
-    //Banner
-    header {
-        background: $primary-color;
-        top: 0;
-
-
-        .banner {
-            padding: 0;
-
-            h1 {
-                font-size: $h2-mob-font-size;
-            }
-
-            .pdf {
-
-                .resume {
-                    box-shadow: 0px 1.5px 2.5px gray;
-                    padding: 14px 24px;
-                    font-size: $p-mob-font-size;
-                    border-radius: 20px;
-                }
-            }
-
-            img {
-                height: 182px;
-                width: 182px;
-                border-radius: 50%;
-                box-shadow: 3px 4px 6px gray;
-                margin-top: 30px;
-            }
-        }
-    }
-}
+    
+// }
 
 
 //Experience
@@ -267,3 +236,5 @@ footer {
         }
     }
 }
+
+@import "./media-queries";

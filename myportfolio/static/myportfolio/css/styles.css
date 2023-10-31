@@ -151,31 +151,34 @@ footer .social a {
   color: #fff;
 }
 
-@media only screen and (max-width: 900px) {
+#experience .row .desc {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
   header {
     background: #F6F6F6;
     top: 0;
   }
   header .banner {
-    padding: 0;
+    padding: 0 0 5em;
   }
   header .banner h1 {
     font-size: 22px;
   }
   header .banner .pdf .resume {
     box-shadow: 0px 1.5px 2.5px gray;
-    padding: 14px 24px;
+    padding: 0.8em 1.5em;
     font-size: 14px;
     border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
   }
   header .banner img {
     height: 182px;
     width: 182px;
     border-radius: 50%;
     box-shadow: 3px 4px 6px gray;
-    margin-top: 30px;
+    margin: 3em;
   }
-}
-#experience .row .desc {
-  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

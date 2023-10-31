@@ -6,6 +6,37 @@ $desktop-width: 1200px;
 
 //Mobile
 @media only screen and (max-width: $mobile-width) {
-    
+    //Banner
+    header {
+        background: $primary-color;
+        top: 0;
+
+        .banner {   
+            padding: 0 0 5em;
+
+            h1 {
+                font-size: $h2-mob-font-size;
+            }
+
+            .pdf {
+
+                .resume {
+                    box-shadow: 0px 1.5px 2.5px gray;
+                    padding: 0.8em 1.5em;
+                    font-size: $p-mob-font-size;
+                    border-radius: 20px;
+                    @include fifth-font-family;
+                }
+            }
+
+            img {
+                height: 182px;
+                width: 182px;
+                border-radius: 50%;
+                box-shadow: 3px 4px 6px gray;
+                margin: 3em;
+            }
+        }
+    }
     
   }
