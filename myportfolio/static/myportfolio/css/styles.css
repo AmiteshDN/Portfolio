@@ -3,65 +3,52 @@
 /* Web Font size */
 /* Mobile Font size */
 header {
-  background: linear-gradient(132deg, #F6F6F6 70%, #394750 30%);
   top: 0;
 }
-
 header .navbar-light {
   padding: 30px 50px 0 0;
 }
-
 header a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-left: 60px;
   color: #394750;
 }
-
 header a:hover {
   color: black;
 }
-
 header .banner {
   padding: 17vh 0;
 }
-
 header .banner h1 {
   font-size: 42px;
   color: #394750;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
 }
-
 header .banner .greet {
   margin-top: 70px;
 }
-
 header .banner .pdf {
   margin: 20px 0 !important;
 }
-
 header .banner .pdf .resume {
   background-color: #394750;
   color: #fff;
   padding: 14px 38px;
   border-radius: 30px;
   margin-left: 0;
-  -webkit-box-shadow: 0px 3px 5px gray;
-          box-shadow: 0px 3px 5px gray;
+  box-shadow: 0px 3px 5px gray;
 }
-
 header .banner .pdf .resume:hover {
   background-color: #2a3e4b;
   text-decoration: none;
 }
-
 header .banner img {
   height: 364px;
   width: 364px;
   border-radius: 50%;
-  -webkit-box-shadow: 5px 8px 12px black;
-          box-shadow: 5px 8px 12px black;
+  box-shadow: 5px 8px 12px black;
 }
 
 hr {
@@ -74,102 +61,67 @@ hr {
 #experience {
   text-align: center;
 }
-
 #experience .row {
   padding: 50px 0;
 }
-
 #experience .row .desc {
   width: 550px;
   line-height: 2;
   text-align: left;
 }
-
 #experience .row .exp-img {
   width: 464px;
   height: 356px;
 }
-
 #experience .project1,
 #experience .project2,
 #experience .project3 {
   padding: 75px 7% 0;
 }
-
-#experience .project1 {
-  background: linear-gradient(48deg, #fff 70%, #F6F6F6 30%);
-}
-
-#experience .project2 {
-  background: linear-gradient(43deg, #F6F6F6 30%, #fff 30%);
-}
-
-#experience .project3 {
-  background: linear-gradient(137deg, #F6F6F6 30%, #fff 30%);
-}
-
 #myskills {
   padding: 75px 7%;
   text-align: center;
-  background: linear-gradient(132deg, #fff 70%, #F6F6F6 30%);
 }
-
 #myskills .row {
   margin-top: 50px;
   text-align: left;
 }
-
 #myskills .row .tools table {
   margin-left: 50px;
 }
-
 #myskills .row .tools img {
   width: 100px;
   height: 100px;
-  -webkit-box-shadow: 10px 10px 10px gainsboro;
-          box-shadow: 10px 10px 10px gainsboro;
+  box-shadow: 10px 10px 10px rgb(220, 220, 220);
 }
-
 #myskills .row .tools td {
   padding: 20px 20px;
   margin: auto;
 }
-
 #myskills .row .tools td p {
   margin-top: 10px;
   padding-left: 20px;
   font-size: 16px;
 }
-
 #myskills .row table {
   margin-top: 30px;
 }
-
 #myskills .row table td {
   padding: 10px;
 }
-
 #myskills .row table td div {
   width: 400px;
   height: 20px;
-  -webkit-box-shadow: 0px 1px 3px gray;
-          box-shadow: 0px 1px 3px gray;
+  box-shadow: 0px 1px 3px gray;
 }
-
-#myskills .row table td div .progress-bar {
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #8FD9A8), color-stop(70%, #65C18C));
-  background: linear-gradient(90deg, #8FD9A8 30%, #65C18C 70%);
-}
-
 #about {
   padding: 75px 10%;
   text-align: center;
 }
-
 #about .greet {
   padding-top: 50px;
   text-align: left;
-  font-family: 'Cedarville Cursive', cursive;
+  font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
   width: 80%;
   margin: auto;
@@ -182,22 +134,18 @@ footer {
   padding: 50px 0 30px 0;
   font-size: 18px;
 }
-
 footer .chat {
   margin-bottom: 40px;
 }
-
 footer .contact {
   padding: 10px 20px;
   background-color: #fff;
   color: #394750;
   border-radius: 5px;
 }
-
 footer .social {
   margin: 40px 0;
 }
-
 footer .social a {
   margin-left: 50px;
   color: #fff;
@@ -215,8 +163,7 @@ footer .social a {
     font-size: 22px;
   }
   header .banner .pdf .resume {
-    -webkit-box-shadow: 0px 1.5px 2.5px gray;
-            box-shadow: 0px 1.5px 2.5px gray;
+    box-shadow: 0px 1.5px 2.5px gray;
     padding: 14px 24px;
     font-size: 14px;
     border-radius: 20px;
@@ -225,13 +172,10 @@ footer .social a {
     height: 182px;
     width: 182px;
     border-radius: 50%;
-    -webkit-box-shadow: 3px 4px 6px gray;
-            box-shadow: 3px 4px 6px gray;
+    box-shadow: 3px 4px 6px gray;
     margin-top: 30px;
   }
 }
-
 #experience .row .desc {
   width: 100%;
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

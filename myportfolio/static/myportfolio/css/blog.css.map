@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,YAAY;AAMZ,iBAAiB;AAgCjB,mBAAmB;AAOnB,sBAAsB;AD3CtB,AAAA,GAAG,CAAC;EACA,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,ECLH,OAAO;CDWvB;;AAVD,AAMI,GAND,CAMC,EAAE,CAAC;EACC,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,KAAK;CACb",
-    "sources": [
-        "blog.scss",
-        "_variables.scss"
-    ],
-    "names": [],
-    "file": "blog.css"
-}
+{"version":3,"sources":["_variables.scss","blog.scss","blog.css"],"names":[],"mappings":"AAAA,WAAA;AAMA,gBAAA;AAgCA,kBAAA;AAOA,qBAAA;AC3CA;EACI,kBAAA;EACA,YAAA;EACA,aAAA;EACA,yBDLa;AEQjB;ADDI;EACI,kBAAA;EACA,UAAA;ACGR","file":"blog.css"}
