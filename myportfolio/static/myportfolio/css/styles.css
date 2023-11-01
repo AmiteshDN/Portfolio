@@ -48,7 +48,7 @@ header .banner img {
   height: 364px;
   width: 364px;
   border-radius: 50%;
-  box-shadow: 5px 8px 12px black;
+  box-shadow: 3px 3px 15px black;
 }
 
 hr {
@@ -178,8 +178,8 @@ footer .social a {
     height: 182px;
     width: 182px;
     border-radius: 50%;
-    box-shadow: 3px 4px 6px gray;
-    margin: 3em;
+    box-shadow: 3px 3px 13px black;
+    margin: 3.5em 3em 3em;
   }
   #experience {
     padding: 3em 0;
