@@ -1,12 +1,14 @@
 /* Colors */
 /* Font Family */
 /* Web Font size */
+/* Tablet font size */
 /* Mobile Font size */
 header {
+  background: linear-gradient(132deg, #F6F6F6 70%, #394750 30%);
   top: 0;
 }
 header .navbar-light {
-  padding: 30px 50px 0 0;
+  padding: 30px 50px 30px 0;
 }
 header a {
   font-family: "Roboto", sans-serif;
@@ -27,10 +29,10 @@ header .banner h1 {
   font-weight: 400;
 }
 header .banner .greet {
-  margin-top: 70px;
+  margin-top: 3em;
 }
 header .banner .pdf {
-  margin: 20px 0 !important;
+  margin: 3em 0 !important;
 }
 header .banner .pdf .resume {
   background-color: #394750;
@@ -38,7 +40,7 @@ header .banner .pdf .resume {
   padding: 14px 38px;
   border-radius: 30px;
   margin-left: 0;
-  box-shadow: 0px 3px 5px gray;
+  box-shadow: 2px 2px 3px gray;
 }
 header .banner .pdf .resume:hover {
   background-color: #2a3e4b;
@@ -78,9 +80,20 @@ hr {
 #experience .project3 {
   padding: 8em 7% 0;
 }
+#experience .project1 {
+  background: linear-gradient(48deg, #fff 70%, #F6F6F6 30%);
+}
+#experience .project2 {
+  background: linear-gradient(43deg, #F6F6F6 30%, #fff 30%);
+}
+#experience .project3 {
+  background: linear-gradient(137deg, #F6F6F6 30%, #fff 30%);
+}
+
 #myskills {
   padding: 75px 7%;
   text-align: center;
+  background: linear-gradient(132deg, #fff 70%, #F6F6F6 30%);
 }
 #myskills .row {
   margin-top: 50px;
@@ -114,6 +127,10 @@ hr {
   height: 20px;
   box-shadow: 0px 1px 3px gray;
 }
+#myskills .row table td div .progress-bar {
+  background: linear-gradient(90deg, #8FD9A8 30%, #65C18C 70%);
+}
+
 #about {
   padding: 75px 10%;
   text-align: center;
@@ -182,7 +199,7 @@ footer .social a {
     margin: 3.5em 3em 3em;
   }
   #experience {
-    padding: 3em 0;
+    padding: 0 0 3em;
   }
   #experience h2 {
     font-size: 22px;
@@ -194,6 +211,7 @@ footer .social a {
   }
   #experience .project1, #experience .project2, #experience .project3 {
     padding: 2em 1.5em;
+    background: none;
   }
   #experience .row {
     padding: 1.5em 0;
@@ -207,6 +225,9 @@ footer .social a {
   #experience .row .exp-img {
     width: 20em;
     height: 20em;
+  }
+  #myskills {
+    background: none;
   }
   #myskills h2 {
     font-size: 22px;
@@ -256,5 +277,75 @@ footer .social a {
   footer .social a {
     display: block;
     margin: 0 0 0.3em;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header {
+    background: #F6F6F6;
+    top: 0;
+  }
+  header .banner {
+    padding: 3em 0 5em;
+  }
+  header .banner h1 {
+    font-size: 42px;
+  }
+  header .banner .pdf .resume {
+    box-shadow: 0px 1.5px 2.5px gray;
+    padding: 0.8em 1.5em;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  header .banner .profile {
+    padding-top: 2em;
+  }
+  header .banner img {
+    height: 364px;
+    width: 364px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 13px black;
+    margin: 3.5em 3em 3em;
+  }
+  #experience .project1 {
+    padding-top: 8em !important;
+    background: none;
+  }
+  #experience .project1 .exp-img {
+    margin-top: 3em;
+  }
+  #experience .project2, #experience .project3 {
+    background: none;
+    padding: 4em !important;
+  }
+  #experience .project2 .desc {
+    padding-top: 5em !important;
+  }
+  #experience .project3 .exp-img {
+    margin-top: 3em;
+  }
+  #experience .row .desc {
+    line-height: 1.5em;
+  }
+  #myskills {
+    padding: 8em 4em;
+    background: none;
+  }
+  #myskills .row p {
+    padding-left: 0.5em;
+  }
+  #myskills .row .tools {
+    margin-top: 5em;
+  }
+  #myskills .row .tools table {
+    margin-left: 0;
+  }
+  #myskills .row .tools img {
+    margin-right: 3em;
+  }
+  #about {
+    padding: 8em 4em;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

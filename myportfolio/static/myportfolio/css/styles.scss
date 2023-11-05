@@ -3,13 +3,12 @@
 
 // Landing page
 header {
-    //background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
+    background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
     top: 0;
-    // 
 
 
     .navbar-light {
-        padding: 30px 50px 0 0;
+        padding: 30px 50px 30px 0;
 
     }
 
@@ -33,12 +32,12 @@ header {
         }
 
         .greet {
-            margin-top: 70px;
+            margin-top: 3em;
 
         }
 
         .pdf {
-            margin: 20px 0 !important;
+            margin: 3em 0 !important;
 
             .resume {
                 background-color: $secondary-color;
@@ -46,7 +45,7 @@ header {
                 padding: 14px 38px;
                 border-radius: 30px;
                 margin-left: 0;
-                box-shadow: 0px 3px 5px gray;
+                box-shadow: 2px 2px 3px gray;
 
                 &:hover {
                     background-color: #2a3e4b;
@@ -102,15 +101,15 @@ hr {
     }
 
     .project1 {
-        //background: linear-gradient(48deg, #fff 70%, $primary-color 30%);
+        background: linear-gradient(48deg, #fff 70%, $primary-color 30%);
     }
 
     .project2 {
-        //background: linear-gradient(43deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(43deg, $primary-color 30%, #fff 30%);
     }
 
     .project3 {
-        //background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
     }
 
 }
@@ -120,7 +119,7 @@ hr {
     padding: 75px 7%;
 
     text-align: center;
-    //background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
+    background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
 
     .row {
         margin-top: 50px;
@@ -161,7 +160,7 @@ hr {
                     box-shadow: 0px 1px 3px gray;
 
                     .progress-bar {
-                        //background: linear-gradient(90deg, $fourth-color 30%, $third-color 70%);
+                        background: linear-gradient(90deg, $fourth-color 30%, $third-color 70%);
                     }
                 }
 
