@@ -43,7 +43,7 @@ $desktop-width: 1200px;
     
     //Experience
     #experience{
-        padding: 0 0 3em;
+        padding: 5em 0 3em;
         h2{
             font-size: $h2-mob-font-size;
             color: $secondary-color;
@@ -80,6 +80,7 @@ $desktop-width: 1200px;
     //Skills
     #myskills{
         background: none;
+        padding: 5em 2em;
         h2{
             font-size: $h2-mob-font-size;
         }
@@ -125,6 +126,7 @@ $desktop-width: 1200px;
 
         //About
         #about{
+            padding: 5em 2em;
             h2{
                 font-size: $h2-mob-font-size;
             }
@@ -171,7 +173,7 @@ $desktop-width: 1200px;
             padding: 3em 0 5em;
 
             h1 {
-                font-size: $h1-web-font-size;
+                font-size: $h1-tab-font-size;
             }
 
             .pdf {
