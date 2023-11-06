@@ -3,12 +3,12 @@
 
 // Landing page
 header {
-    background: linear-gradient(132deg, $primary-color 70%, $secondary-color 30%);
+    background: linear-gradient(128deg, $primary-color 70%, $secondary-color 30%);
     top: 0;
 
 
     .navbar-light {
-        padding: 30px 50px 30px 0;
+        padding: 30px 50px 0 0;
 
     }
 
@@ -23,7 +23,7 @@ header {
     }
 
     .banner {
-        padding: 17vh 0;
+        padding: 25vh 0 30vh;
 
         h1 {
             font-size: $h1-web-font-size;
@@ -97,7 +97,7 @@ hr {
     .project1,
     .project2,
     .project3 {
-        padding: 8em 7% 0;
+        padding: 8em 7% 2em;
 
     }
 
@@ -117,7 +117,7 @@ hr {
 
 // My skills
 #myskills {
-    padding: 75px 7%;
+    padding: 8em;
 
     text-align: center;
     background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
@@ -175,7 +175,7 @@ hr {
 // About me
 
 #about {
-    padding: 75px 10%;
+    padding: 8em;
 
     text-align: center;
 
@@ -218,23 +218,5 @@ footer {
     }
 }
 
-//Mobile CSS
-// @media only screen and (max-width: 900px) {
-
-    
-// }
-
-
-//Experience
-
-#experience {
-
-    .row {
-
-        .desc {
-            width: 100%;
-        }
-    }
-}
 
 @import "./media-queries";
