@@ -295,4 +295,161 @@ $desktop-width: 1200px;
 
 }
 
+
+//Tablet size
+@media only screen and (min-width: #{$tablet-width + 1}) and (max-width: #{$desktop-width - 1}) {
+    //Banner
+    header {
+
+        a{
+            margin-left: 40px;
+            font-size: $p-tabl-font-size;
+        }
+
+        .banner {   
+
+            h1 {
+                font-size: $h1-tabl-font-size;
+            }
+
+            .pdf {
+
+                .resume {
+                    box-shadow: 0px 1.5px 2.5px gray;
+                    padding: 1em 2em;
+                    font-size: $p-tabl-font-size;
+                    border-radius: 20px;
+                    @include fifth-font-family;
+                }
+            }
+
+        //     .profile{
+        //         padding-top: 2em;
+        //     }
+
+            img {
+                height: 240px;
+                width: 240px;
+                border-radius: 50%;
+                box-shadow: 3px 3px 13px black;
+                margin: 1.5em;
+            }
+         }
+    }
+
+    //Experience
+    #experience{
+
+        p{
+            font-size: $p-tabl-font-size;
+        }
+
+        h3{
+            font-size: $h3-tabl-font-size;
+        }
+
+        .project1{
+            padding-top: 8em !important;
+            //background: none;
+
+            .exp-img{
+                //margin-top: 3em;
+                margin-left: 1.5em;
+            }
+        } 
+        
+        .project2, .project3{
+            //background: none;
+            padding: 4em !important;
+            
+        }
+
+        .project2 .desc{
+            //padding-top: 5em !important;
+            padding-left: 2em;
+        }
+
+        .project3 .exp-img{
+            margin-left: 1.5em;
+        }
+
+        
+
+        .row{
+            //padding: 1.5em 0;
+
+            .desc{
+                line-height: 1.5em;
+                //margin-bottom: 2em;
+                //padding: 3em 0;
+            }
+
+
+        }
+    }
+
+    //Skills
+    #myskills{
+        padding: 6em 4em;
+        .row{
+
+            p{
+                padding-left: 0.5em;
+                font-size: $p-tabl-font-size;
+            }
+
+            table{
+                td{
+                    div{
+                        width: 24em;
+                        height: 1.5em;
+                        box-shadow: 0px 1px 3px gray;
+                        }
+                    }
+                }
+
+            .tools{
+                //margin-top: 5em;
+
+                table{
+                    margin-left: 0;
+
+                    td{
+                        text-align: center;
+                        p{
+                            padding-left: 0;
+                            font-size: $p-tabl-font-size;
+                        }
+                    }
+                }
+
+                img{
+                    width: 5em;
+                    height: 5em;
+                }
+            }
+            }
+        }
+
+        //About
+        #about{
+            padding: 6em 4em;
+            font-size: $h2-tabl-font-size;
+            h3{
+                font-size: $h3-tabl-font-size;
+            }
+        }
+
+        //Footer
+        footer{
+            font-size: $h4-tabl-font-size;
+            padding: 35px 0;
+            .contact {
+                padding: 8px 16px;
+                font-size: $p-tabl-font-size;
+            }
+        }
+}
+
+
   
