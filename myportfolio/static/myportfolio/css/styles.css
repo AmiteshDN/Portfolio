@@ -5,7 +5,7 @@
 /* Tablet landscape font size */
 /* Mobile Font size */
 header {
-  background: linear-gradient(128deg, #F6F6F6 70%, #394750 30%);
+  background: linear-gradient(120deg, #F6F6F6 45%, #394750 45%);
   top: 0;
 }
 header .navbar-light {
@@ -15,7 +15,7 @@ header a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-left: 60px;
-  color: #394750;
+  color: #F6F6F6 !important;
 }
 header a:hover {
   color: black;
@@ -76,28 +76,38 @@ hr {
   width: 464px;
   height: 356px;
 }
+#experience .project0,
 #experience .project1,
 #experience .project2,
 #experience .project3 {
   padding: 8em 7% 2em;
 }
+#experience .project0 h2,
+#experience .project1 h2,
+#experience .project2 h2,
+#experience .project3 h2 {
+  margin-bottom: 1em;
+}
+#experience .project0 {
+  background: linear-gradient(120deg, #F6F6F6 50%, #fff 50%);
+}
 #experience .project1 {
-  background: linear-gradient(48deg, #fff 70%, #F6F6F6 30%);
+  background: linear-gradient(60deg, #fff 50%, #F6F6F6 50%);
 }
 #experience .project2 {
-  background: linear-gradient(43deg, #F6F6F6 30%, #fff 30%);
+  background: linear-gradient(120deg, #F6F6F6 50%, #fff 50%);
 }
 #experience .project3 {
-  background: linear-gradient(137deg, #F6F6F6 30%, #fff 30%);
+  background: linear-gradient(60deg, #fff 50%, #F6F6F6 50%);
 }
 
 #myskills {
   padding: 8em;
   text-align: center;
-  background: linear-gradient(132deg, #fff 70%, #F6F6F6 30%);
+  background: linear-gradient(120deg, #F6F6F6 50%, #fff 50%);
 }
 #myskills .row {
-  margin-top: 50px;
+  margin-top: 5em;
   text-align: left;
 }
 #myskills .row .tools table {

@@ -3,7 +3,7 @@
 
 // Landing page
 header {
-    background: linear-gradient(128deg, $primary-color 70%, $secondary-color 30%);
+    background: linear-gradient(120deg, $primary-color 45%, $secondary-color 45%);
     top: 0;
 
 
@@ -15,7 +15,7 @@ header {
     a {
         @include fifth-font-family();
         margin-left: 60px;
-        color: $secondary-color;
+        color: $primary-color !important;
 
         &:hover {
             color: black;
@@ -76,7 +76,6 @@ hr {
 
 #experience {
     text-align: center;
-
     .row {
         padding: 50px 0;
 
@@ -93,24 +92,31 @@ hr {
         }
 
     }
-
+    .project0,
     .project1,
     .project2,
     .project3 {
         padding: 8em 7% 2em;
 
+        h2{
+            margin-bottom: 1em;
+        }
+    }
+
+    .project0{
+        background: linear-gradient(120deg, $primary-color 50%, #fff 50%);
     }
 
     .project1 {
-        background: linear-gradient(48deg, #fff 70%, $primary-color 30%);
+        background: linear-gradient(60deg, #fff 50%, $primary-color 50%);
     }
 
     .project2 {
-        background: linear-gradient(43deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(120deg, $primary-color 50%, #fff 50%);
     }
 
     .project3 {
-        background: linear-gradient(137deg, $primary-color 30%, #fff 30%);
+        background: linear-gradient(60deg, #fff 50%, $primary-color 50%);
     }
 
 }
@@ -120,10 +126,10 @@ hr {
     padding: 8em;
 
     text-align: center;
-    background: linear-gradient(132deg, #fff 70%, $primary-color 30%);
+    background: linear-gradient(120deg, $primary-color 50%, #fff 50%);
 
     .row {
-        margin-top: 50px;
+        margin-top: 5em;
         text-align: left;
 
         .tools {
