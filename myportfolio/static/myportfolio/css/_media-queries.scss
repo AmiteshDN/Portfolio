@@ -13,6 +13,10 @@ $desktop-width: 1200px;
         background: $primary-color;
         top: 0;
 
+        .nav-link {
+            color: $secondary-color !important;
+        }
+
         .banner {   
             padding: 0 0 5em;
 
@@ -43,7 +47,7 @@ $desktop-width: 1200px;
     
     //Experience
     #experience{
-        padding: 5em 0 3em;
+        padding: 3em 0 3em;
         h2{
             font-size: $h2-mob-font-size;
             color: $secondary-color;
@@ -54,14 +58,14 @@ $desktop-width: 1200px;
             color: $secondary-color;
         }
 
-        .project1, .project2, .project3{
-            padding: 2em 1.5em;
+        .project0, .project1, .project2, .project3{
+            padding: 1.5em 1.5em 0;
             background: none;
             
         }
 
         .row{
-            padding: 1.5em 0;
+            padding: 0;
 
             .desc{
                 font-size: $p-mob-font-size;
@@ -204,23 +208,23 @@ $desktop-width: 1200px;
     //Experience
     #experience{
 
-        .project1{
-            padding-top: 8em !important;
+        .project0{
             background: none;
+            padding: 5em 4em 0 !important;
 
-            .exp-img{
+            .desc{
                 margin-top: 3em;
             }
         } 
         
-        .project2, .project3{
+        .project1, .project2, .project3{
             background: none;
-            padding: 4em !important;
+            padding: 0 4em !important;
             
         }
 
         .project2 .desc{
-            padding-top: 5em !important;
+            padding-top: 3em !important;
         }
 
         .project3 .exp-img{
@@ -234,6 +238,7 @@ $desktop-width: 1200px;
 
             .desc{
                 line-height: 1.5em;
+                width: auto;
                 //margin-bottom: 2em;
                 //padding: 3em 0;
             }
@@ -298,14 +303,19 @@ $desktop-width: 1200px;
 }
 
 
-//Tablet size
+//Tablet landscape size
 @media only screen and (min-width: #{$tablet-width + 1}) and (max-width: #{$desktop-width - 1}) {
     //Banner
     header {
+        background: linear-gradient(110deg, $primary-color 50%, $secondary-color 50%);
 
         a{
             margin-left: 40px;
             font-size: $p-tabl-font-size;
+        }
+
+        .blog, .exp{
+            color: $secondary-color !important;
         }
 
         .banner {   

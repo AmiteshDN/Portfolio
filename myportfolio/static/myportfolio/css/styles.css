@@ -68,7 +68,7 @@ hr {
   padding: 50px 0;
 }
 #experience .row .desc {
-  width: 550px;
+  width: auto;
   line-height: 2;
   text-align: left;
 }
@@ -184,6 +184,9 @@ footer .social a {
     background: #F6F6F6;
     top: 0;
   }
+  header .nav-link {
+    color: #394750 !important;
+  }
   header .banner {
     padding: 0 0 5em;
   }
@@ -193,7 +196,7 @@ footer .social a {
   header .banner .pdf .resume {
     box-shadow: 0px 1.5px 2.5px gray;
     padding: 0.8em 1.5em;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -206,7 +209,7 @@ footer .social a {
     margin: 3.5em 3em 3em;
   }
   #experience {
-    padding: 5em 0 3em;
+    padding: 3em 0 3em;
   }
   #experience h2 {
     font-size: 22px;
@@ -216,15 +219,15 @@ footer .social a {
     font-size: 18px;
     color: #394750;
   }
-  #experience .project1, #experience .project2, #experience .project3 {
-    padding: 2em 1.5em;
+  #experience .project0, #experience .project1, #experience .project2, #experience .project3 {
+    padding: 1.5em 1.5em 0;
     background: none;
   }
   #experience .row {
-    padding: 1.5em 0;
+    padding: 0;
   }
   #experience .row .desc {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5em;
     margin-bottom: 2em;
     padding-top: 3.5em;
@@ -241,7 +244,7 @@ footer .social a {
     font-size: 22px;
   }
   #myskills p, #myskills td {
-    font-size: 12px;
+    font-size: 14px;
   }
   #myskills .row table td div {
     width: 16em;
@@ -256,7 +259,7 @@ footer .social a {
   }
   #myskills .row .tools table td p {
     padding-left: 0.5em;
-    font-size: 12px;
+    font-size: 14px;
   }
   #myskills .row .tools img {
     width: 5em;
@@ -270,11 +273,11 @@ footer .social a {
     font-size: 22px;
   }
   #about h3 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5em;
   }
   footer p, footer a {
-    font-size: 12px;
+    font-size: 14px;
   }
   footer .chat {
     margin-bottom: 20px;
@@ -319,25 +322,26 @@ footer .social a {
     box-shadow: 3px 3px 13px black;
     margin: 3.5em 3em 3em;
   }
-  #experience .project1 {
-    padding-top: 8em !important;
+  #experience .project0 {
     background: none;
+    padding: 5em 4em 0 !important;
   }
-  #experience .project1 .exp-img {
+  #experience .project0 .desc {
     margin-top: 3em;
   }
-  #experience .project2, #experience .project3 {
+  #experience .project1, #experience .project2, #experience .project3 {
     background: none;
-    padding: 4em !important;
+    padding: 0 4em !important;
   }
   #experience .project2 .desc {
-    padding-top: 5em !important;
+    padding-top: 3em !important;
   }
   #experience .project3 .exp-img {
     margin-top: 3em;
   }
   #experience .row .desc {
     line-height: 1.5em;
+    width: auto;
   }
   #myskills {
     padding: 8em 4em;
@@ -361,9 +365,15 @@ footer .social a {
   }
 }
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  header {
+    background: linear-gradient(110deg, #F6F6F6 50%, #394750 50%);
+  }
   header a {
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 16px;
+  }
+  header .blog, header .exp {
+    color: #394750 !important;
   }
   header .banner h1 {
     font-size: 36px;
@@ -371,7 +381,7 @@ footer .social a {
   header .banner .pdf .resume {
     box-shadow: 0px 1.5px 2.5px gray;
     padding: 1em 2em;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -384,10 +394,10 @@ footer .social a {
     margin: 1.5em;
   }
   #experience p {
-    font-size: 14px;
+    font-size: 16px;
   }
   #experience h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
   #experience .project1 {
     padding-top: 8em !important;
@@ -412,7 +422,7 @@ footer .social a {
   }
   #myskills .row p {
     padding-left: 0.5em;
-    font-size: 14px;
+    font-size: 16px;
   }
   #myskills .row table td div {
     width: 24em;
@@ -427,7 +437,7 @@ footer .social a {
   }
   #myskills .row .tools table td p {
     padding-left: 0;
-    font-size: 14px;
+    font-size: 16px;
   }
   #myskills .row .tools img {
     width: 5em;
@@ -435,10 +445,10 @@ footer .social a {
   }
   #about {
     padding: 6em 4em;
-    font-size: 22px;
+    font-size: 30px;
   }
   #about h3 {
-    font-size: 20px;
+    font-size: 26px;
   }
   footer {
     font-size: 16px;
@@ -446,6 +456,6 @@ footer .social a {
   }
   footer .contact {
     padding: 8px 16px;
-    font-size: 14px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=styles.css.map */
