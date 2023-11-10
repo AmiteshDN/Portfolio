@@ -128,42 +128,60 @@ $desktop-width: 1200px;
             }
         }
 
-        //About
-        #about{
-            padding: 5em 2em;
-            h2{
-                font-size: $h2-mob-font-size;
-            }
+//Achievements
+#achievements{
+    padding: 5em 0 5em;
+    h3{
+        font-size: $h3-mob-font-size !important;
+    }
 
-            h3{
-                font-size: $p-mob-font-size;
-                line-height: 1.5em;
-            }
-        }
+    h2{
+        font-size: $h2-mob-font-size !important;
+    }
 
-        //Footer
-        footer{
-            p, a{
-                font-size: $p-mob-font-size;
-            }
+    .carousel-inner{
+    
+        //color: $primary-color;
+        height: 15em ;
+    }
+}
 
-            .chat{
-                margin-bottom: 20px;
-                width: auto;
-                padding: 0 2.5em;
-            }
+//About
+#about{
+    padding: 5em 2em;
+    h2{
+        font-size: $h2-mob-font-size;
+    }
 
-            .social{
-                text-align: center;
-                margin: 1.5em;
-                a{
-                    display: block;
-                    margin: 0 0 0.3em;
-                }
-            }
-            
+    h3{
+        font-size: $p-mob-font-size;
+        line-height: 1.5em;
+    }
+}
+
+//Footer
+footer{
+    p, a{
+        font-size: $p-mob-font-size;
+    }
+
+    .chat{
+        margin-bottom: 20px;
+        width: auto;
+        padding: 0 2.5em;
+    }
+
+    .social{
+        text-align: center;
+        margin: 1.5em;
+        a{
+            display: block;
+            margin: 0 0 0.3em;
         }
     }
+    
+}
+}
 
 
 //Tablet size
@@ -292,13 +310,32 @@ $desktop-width: 1200px;
             }
         }
 
-        //About
-        #about{
-            padding: 8em 4em;
-            font-size: $p-tab-font-size;
-        }
 
-        //Footer
+//Achievements
+#achievements{
+    padding: 5em 0 5em;
+    h3{
+        font-size: $h3-tab-font-size !important;
+    }
+
+    h2{
+        font-size: $h2-tab-font-size !important;
+    }
+
+    .carousel-inner{
+    
+        //color: $primary-color;
+        height: 15em ;
+    }
+}
+
+//About
+#about{
+    padding: 8em 4em;
+    font-size: $p-tab-font-size;
+}
+
+//Footer
 
 }
 
@@ -443,25 +480,39 @@ $desktop-width: 1200px;
             }
         }
 
-        //About
-        #about{
-            padding: 6em 4em;
-            font-size: $h2-tabl-font-size;
-            h3{
-                font-size: $h3-tabl-font-size;
-            }
-        }
 
-        //Footer
-        footer{
-            font-size: $h4-tabl-font-size;
-            padding: 35px 0;
-            .contact {
-                padding: 8px 16px;
-                font-size: $p-tabl-font-size;
-            }
-        }
+//Achievements
+#achievements{
+    padding: 5em 0 5em;
+    h3{
+        font-size: $h3-tabl-font-size !important;
+    }
+
+    h2{
+        font-size: $h2-tabl-font-size !important;
+    }
+
 }
 
 
-  
+//About
+#about{
+    padding: 6em 4em;
+    font-size: $h2-tabl-font-size;
+    h3{
+        font-size: $h3-tabl-font-size;
+    }
+}
+
+//Footer
+footer{
+    font-size: $h4-tabl-font-size;
+    padding: 35px 0;
+    .contact {
+        padding: 8px 16px;
+        font-size: $p-tabl-font-size;
+    }
+}
+}
+
+
