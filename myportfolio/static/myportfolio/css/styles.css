@@ -207,22 +207,31 @@ footer {
   font-size: 18px;
 }
 footer .chat {
-  margin-bottom: 40px;
+  margin-bottom: 2em;
 }
 footer .contact {
-  padding: 10px 20px;
+  padding: 10px 15px;
   background-color: #fff;
   color: #394750;
   border-radius: 5px;
 }
 footer .social {
-  margin: 40px 0;
+  margin: 2.5em 0;
 }
 footer .social a {
-  margin-left: 50px;
+  margin: 0 1em;
   color: #fff;
 }
+footer .social a .fa-brands {
+  font-size: 2em;
+}
 
+/* Colors */
+/* Font Family */
+/* Web Font size */
+/* Tablet font size */
+/* Tablet landscape font size */
+/* Mobile Font size */
 @media only screen and (max-width: 600px) {
   header {
     background: #F6F6F6;
@@ -359,23 +368,33 @@ footer .social a {
     font-size: 16px;
   }
   footer .chat {
-    margin-bottom: 20px;
     width: auto;
     padding: 0 2.5em;
   }
   footer .social {
     text-align: center;
-    margin: 1.5em;
+    margin: 2em 0 1.5em;
   }
   footer .social a {
-    display: block;
-    margin: 0 0 0.3em;
+    margin: 0 0.5em;
+  }
+  footer .social a .fa-brands {
+    font-size: 1.5em;
   }
 }
+/* Colors */
+/* Font Family */
+/* Web Font size */
+/* Tablet font size */
+/* Tablet landscape font size */
+/* Mobile Font size */
 @media only screen and (min-width: 601px) and (max-width: 992px) {
   header {
     background: #F6F6F6;
     top: 0;
+  }
+  header .navbar-light .navbar-toggler {
+    border-color: #F6F6F6;
   }
   header .nav-link {
     color: #394750 !important;
@@ -465,10 +484,29 @@ footer .social a {
   #about h3 {
     font-size: 14px !important;
   }
+  .social {
+    text-align: center;
+    margin: 2.5em !important;
+  }
+  .social a {
+    margin: 0 1em !important;
+  }
+  .social a .fa-brands {
+    font-size: 2em;
+  }
 }
+/* Colors */
+/* Font Family */
+/* Web Font size */
+/* Tablet font size */
+/* Tablet landscape font size */
+/* Mobile Font size */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   header {
     background: #F6F6F6;
+  }
+  header .navbar-light .navbar-toggler {
+    border-color: #F6F6F6;
   }
   header a {
     margin-left: 40px;
@@ -568,6 +606,16 @@ footer .social a {
   footer {
     font-size: 16px;
     padding: 35px 0;
+  }
+  footer .social {
+    text-align: center;
+    margin: 2.5em !important;
+  }
+  footer .social a {
+    margin: 0 1em !important;
+  }
+  footer .social a .fa-brands {
+    font-size: 2em;
   }
   footer .contact {
     padding: 8px 16px;

@@ -262,25 +262,30 @@ footer {
     font-size: $h4-web-font-size;
 
     .chat {
-        margin-bottom: 40px;
+        margin-bottom: 2em;
     }
 
     .contact {
-        padding: 10px 20px;
+        padding: 10px 15px;
         background-color: #fff;
         color: $secondary-color;
         border-radius: 5px;
     }
 
     .social {
-        margin: 40px 0;
+        margin: 2.5em 0;
 
         a {
-            margin-left: 50px;
+            margin: 0 1em;
             color: #fff;
+            .fa-brands{
+                font-size: 2em;
+            }
         }
     }
 }
 
 
-@import "./media-queries";
+@import "./mobile";
+@import "./tablet";
+@import "./tabletLandscape";

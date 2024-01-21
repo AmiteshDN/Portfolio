@@ -1,0 +1,208 @@
+@import "./variables";
+
+
+//Mobile
+@media only screen and (max-width: $mobile-width) {
+
+    //Banner
+    header {
+        background: $primary-color;
+        top: 0;
+
+        .navbar-light .navbar-toggler{
+            border-color: $primary-color;
+        }
+
+        .nav-link {
+            color: $secondary-color !important;
+        }
+
+        .banner {   
+            padding: 0 0 5em;
+
+            h1 {
+                font-size: $h2-mob-font-size;
+            }
+
+            .pdf {
+
+                .resume {
+                    box-shadow: 0px 1.5px 2.5px gray;
+                    padding: 0.8em 1.5em;
+                    font-size: $p-mob-font-size;
+                    border-radius: 20px;
+                    @include fifth-font-family;
+                }
+            }
+
+            img {
+                height: 182px;
+                width: 182px;
+                border-radius: 50%;
+                box-shadow: 3px 3px 13px black;
+                margin: 3.5em 3em 3em;
+            }
+        }
+    }
+    
+    //Experience
+    #experience{
+        padding: 2em 0;
+        h2{
+            font-size: $h2-mob-font-size;
+            color: $secondary-color;
+        }
+
+        h3{
+            font-size: $h3-mob-font-size;
+            color: $secondary-color;
+        }
+        hr{
+            width: 80%;
+        }
+
+        .project0, .project1, .project2, .project3{
+            padding: 1.5em 1.5em 0;
+            background: none;
+            .card-body{
+                background-color: #fff;
+            }
+            
+        }
+
+        .row{
+            padding: 0;
+
+            .desc{
+                font-size: $p-mob-font-size;
+                line-height: 1.5em;
+                margin-bottom: 2em;
+                padding-top: 1.5em;
+                .btn{
+                    font-size: $p-web-font-size;
+                    background: none;
+                    box-shadow: none;
+                    color: $secondary-color !important;
+                    padding: 0;
+                    text-decoration: underline;
+                    
+                }
+            }
+
+            .exp-img{
+                width: 10em;
+                height: 10em;
+            }
+
+            .proj-img{
+                display: none;
+            }
+        }
+    }
+
+    //Skills
+    #myskills{
+        background: none;
+        padding: 2em;
+        h2{
+            font-size: $h2-mob-font-size;
+        }
+
+        p, td{
+            font-size: $p-mob-font-size;
+        }
+
+        .row{
+            margin-top: 2em;
+            table{
+                td{
+                    div{
+                        width: 15em;
+                        height: 1.5em;
+                        box-shadow: 0px 1px 3px gray;
+                        }
+                    }
+                }
+
+            .tools{
+                margin-top: 3em;
+
+                table{
+                    margin-left: 0;
+                    td{
+
+                        p{
+                            padding-left: 0.5em;
+                            font-size: $p-mob-s-font-size;
+                        }
+                    }
+                }
+
+                img{
+                    width: 4em;
+                    height: 4em;
+                    box-shadow: 10px 10px 10px rgb(220, 220, 220);
+                }
+            }
+            }
+        }
+
+//Achievements
+#achievements{
+    padding: 4em 0.5em;
+    h3{
+        font-size: $h3-mob-font-size !important;
+    }
+
+    h2{
+        font-size: $h3-mob-font-size !important;
+    }
+
+    .carousel-inner{
+    
+        //color: $primary-color;
+        height: 15em ;
+    }
+}
+
+//About
+#about{
+    padding: 3em 0;
+    h2{
+        font-size: $h2-mob-font-size;
+    }
+
+    h3{
+        font-size: $p-mob-font-size;
+        line-height: 1.5em;
+    }
+}
+
+//Footer
+footer{
+    p, a{
+        font-size: $p-mob-font-size;
+    }
+
+    .chat{
+        //margin-bottom: 20px;
+        width: auto;
+        padding: 0 2.5em;
+    }
+
+    .social{
+        text-align: center;
+        margin: 2em 0 1.5em;
+        a{
+            //display: inline;
+            margin:  0 0.5em;
+            .fa-brands{
+                font-size: 1.5em;
+            }
+        }
+    }
+    
+}
+}
+
+
