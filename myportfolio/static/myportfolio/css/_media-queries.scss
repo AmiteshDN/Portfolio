@@ -13,6 +13,10 @@ $desktop-width: 1200px;
         background: $primary-color;
         top: 0;
 
+        .navbar-light .navbar-toggler{
+            border-color: $primary-color;
+        }
+
         .nav-link {
             color: $secondary-color !important;
         }
@@ -47,7 +51,7 @@ $desktop-width: 1200px;
     
     //Experience
     #experience{
-        padding: 3em 0 3em;
+        padding: 2em 0;
         h2{
             font-size: $h2-mob-font-size;
             color: $secondary-color;
@@ -57,10 +61,16 @@ $desktop-width: 1200px;
             font-size: $h3-mob-font-size;
             color: $secondary-color;
         }
+        hr{
+            width: 80%;
+        }
 
         .project0, .project1, .project2, .project3{
             padding: 1.5em 1.5em 0;
             background: none;
+            .card-body{
+                background-color: #fff;
+            }
             
         }
 
@@ -71,12 +81,25 @@ $desktop-width: 1200px;
                 font-size: $p-mob-font-size;
                 line-height: 1.5em;
                 margin-bottom: 2em;
-                padding-top: 3.5em;
+                padding-top: 1.5em;
+                .btn{
+                    font-size: $p-web-font-size;
+                    background: none;
+                    box-shadow: none;
+                    color: $secondary-color !important;
+                    padding: 0;
+                    text-decoration: underline;
+                    
+                }
             }
 
             .exp-img{
                 width: 10em;
                 height: 10em;
+            }
+
+            .proj-img{
+                display: none;
             }
         }
     }
@@ -84,7 +107,7 @@ $desktop-width: 1200px;
     //Skills
     #myskills{
         background: none;
-        padding: 5em 2em;
+        padding: 2em;
         h2{
             font-size: $h2-mob-font-size;
         }
@@ -94,11 +117,12 @@ $desktop-width: 1200px;
         }
 
         .row{
+            margin-top: 2em;
             table{
                 td{
                     div{
-                        width: 12em;
-                        height: 1em;
+                        width: 15em;
+                        height: 1.5em;
                         box-shadow: 0px 1px 3px gray;
                         }
                     }
@@ -109,19 +133,18 @@ $desktop-width: 1200px;
 
                 table{
                     margin-left: 0;
-
                     td{
 
                         p{
                             padding-left: 0.5em;
-                            font-size: $p-mob-font-size;
+                            font-size: $p-mob-s-font-size;
                         }
                     }
                 }
 
                 img{
-                    width: 5em;
-                    height: 5em;
+                    width: 4em;
+                    height: 4em;
                     box-shadow: 10px 10px 10px rgb(220, 220, 220);
                 }
             }
@@ -130,13 +153,13 @@ $desktop-width: 1200px;
 
 //Achievements
 #achievements{
-    padding: 5em 0 5em;
+    padding: 4em 0.5em;
     h3{
         font-size: $h3-mob-font-size !important;
     }
 
     h2{
-        font-size: $h2-mob-font-size !important;
+        font-size: $h3-mob-font-size !important;
     }
 
     .carousel-inner{
@@ -148,7 +171,7 @@ $desktop-width: 1200px;
 
 //About
 #about{
-    padding: 5em 2em;
+    padding: 3em 0;
     h2{
         font-size: $h2-mob-font-size;
     }
@@ -229,31 +252,17 @@ footer{
 
     //Experience
     #experience{
-
-        .project0{
+        .proj-img{
+            display: none;
+        }
+    
+        .project0, .project1, .project2, .project3{
             background: none;
-            padding: 5em 4em 0 !important;
-
-            .desc{
-                margin-top: 3em;
+            padding: 4em 3em !important;
+            .card-body{
+                background-color: #fff;
             }
-        } 
-        
-        .project1, .project2, .project3{
-            background: none;
-            padding: 0 4em !important;
-            
         }
-
-        .project2 .desc{
-            padding-top: 3em !important;
-        }
-
-        .project3 .exp-img{
-            margin-top: 3em;
-        }
-
-        
 
         .row{
             //padding: 1.5em 0;
@@ -268,6 +277,11 @@ footer{
                 width: auto;
                 //margin-bottom: 2em;
                 //padding: 3em 0;
+                .btn{
+                    font-size: $p-tab-font-size;
+                }
+
+                
             }
 
 
@@ -284,15 +298,6 @@ footer{
                 padding-left: 0.5em;
             }
 
-            table{
-                td{
-                    div{
-                        // width: 16em;
-                        // height: 1.5em;
-                        // box-shadow: 0px 1px 3px gray;
-                        }
-                    }
-                }
 
             .tools{
                 margin-top: 5em;
@@ -441,6 +446,9 @@ footer{
                 line-height: 1.5em;
                 //margin-bottom: 2em;
                 //padding: 3em 0;
+                .btn{
+                    font-size: $p-tabl-font-size;
+                }
             }
 
 

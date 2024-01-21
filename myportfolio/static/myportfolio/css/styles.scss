@@ -88,7 +88,15 @@ hr {
             text-align: left;
             padding-left: 2em;
             padding-right: 2em;
-            
+            .btn {
+                background-color: $secondary-color;
+                color: #fff !important;
+                padding: 10px 20px;
+                border-radius: 30px;
+                border: none;
+                box-shadow: 1px 1px 2px gray;
+
+            }
         }
 
         .exp-img {
@@ -102,36 +110,40 @@ hr {
     .project2,
     .project3 {
         padding: 4em 7% 2em;
+        .card-body{
+            padding: 0;
+        }
 
         h2{
             margin-bottom: 1em;
         }
     }
 
-    .project0{
-        background: linear-gradient(90deg, #fff 50%, $primary-color 50%);
+    .project0, .project2{
+        background: $primary-color;
+        .card-body{
+            background-color: $primary-color;
+            border: none;
+        }
     }
 
-    .project1 {
-        background: linear-gradient(90deg, $primary-color 50%, #fff 50%);
+    .project1, .project3 {
+        background: #fff;
+        .card-body{
+            background-color: #fff;
+            border: none;
+        }
     }
 
-    .project2 {
-        background: linear-gradient(90deg, #fff 50%, $primary-color 50%);
-    }
 
-    .project3 {
-        background: linear-gradient(90deg, $primary-color 50%, #fff 50%);
-    }
 
 }
 
 // My skills
 #myskills {
     padding: 8em;
-
     text-align: center;
-    //background: linear-gradient(120deg, $primary-color 50%, #fff 50%);
+    background: $primary-color;
 
     .row {
         margin-top: 5em;
