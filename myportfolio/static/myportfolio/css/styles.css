@@ -83,8 +83,8 @@ hr {
   box-shadow: 1px 1px 2px gray;
 }
 #experience .row .exp-img {
-  width: 464px;
-  height: 356px;
+  width: 22em;
+  height: 17em;
 }
 #experience .project0,
 #experience .project1,
