@@ -258,14 +258,14 @@ footer{
     
         .project0, .project1, .project2, .project3{
             background: none;
-            padding: 4em 3em !important;
+            padding: 3em 3em !important;
             .card-body{
                 background-color: #fff;
             }
         }
 
         .row{
-            //padding: 1.5em 0;
+            padding: 0;
 
             .exp-img{
                 width: 15em;
@@ -290,10 +290,10 @@ footer{
 
     //Skills
     #myskills{
-        padding: 8em 4em;
+        padding: 4em;
         background: none;
         .row{
-
+            margin-top: 2;
             p{
                 padding-left: 0.5em;
             }

@@ -409,10 +409,13 @@ footer .social a {
   }
   #experience .project0, #experience .project1, #experience .project2, #experience .project3 {
     background: none;
-    padding: 4em 3em !important;
+    padding: 3em 3em !important;
   }
   #experience .project0 .card-body, #experience .project1 .card-body, #experience .project2 .card-body, #experience .project3 .card-body {
     background-color: #fff;
+  }
+  #experience .row {
+    padding: 0;
   }
   #experience .row .exp-img {
     width: 15em;
@@ -426,8 +429,11 @@ footer .social a {
     font-size: 14px;
   }
   #myskills {
-    padding: 8em 4em;
+    padding: 4em;
     background: none;
+  }
+  #myskills .row {
+    margin-top: 2;
   }
   #myskills .row p {
     padding-left: 0.5em;
