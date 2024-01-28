@@ -121,7 +121,7 @@ hr {
 }
 
 #myskills {
-  padding: 8em;
+  padding: 5em;
   text-align: center;
   background: #F6F6F6;
 }
@@ -188,7 +188,7 @@ hr {
 }
 
 #about {
-  padding: 8em;
+  padding: 5em;
   text-align: center;
 }
 #about .greet {
@@ -468,19 +468,13 @@ footer .social a .fa-brands {
     margin-right: 3em;
   }
   #achievements {
-    padding: 5em 0 5em;
+    padding: 4em 0 5em;
   }
   #achievements h3 {
     font-size: 18px !important;
   }
-  #achievements h2 {
-    font-size: 20px !important;
-  }
-  #achievements .carousel-inner {
-    height: 15em;
-  }
   #about {
-    padding: 8em 4em;
+    padding: 4em;
   }
   #about h3 {
     font-size: 14px !important;
@@ -595,11 +589,11 @@ footer .social a .fa-brands {
     font-size: 26px !important;
   }
   #achievements h2 {
-    font-size: 30px !important;
+    font-size: 26px !important;
   }
   #about {
     padding: 6em 4em;
-    font-size: 30px;
+    font-size: 26px;
   }
   #about h3 {
     font-size: 26px;

@@ -118,25 +118,25 @@
 
 //Achievements
 #achievements{
-    padding: 5em 0 5em;
+    padding: 4em 0 5em;
     h3{
         font-size: $h3-tab-font-size !important;
     }
 
-    h2{
-        font-size: $h2-tab-font-size !important;
-    }
+    // h2{
+    //     font-size: $h2-tab-font-size !important;
+    // }
 
-    .carousel-inner{
+    // .carousel-inner{
     
-        //color: $primary-color;
-        height: 15em ;
-    }
+    //     //color: $primary-color;
+    //     height: 15em ;
+    // }
 }
 
 //About
 #about{
-    padding: 8em 4em;
+    padding: 4em;
     h3{
         font-size: $p-tab-font-size !important;
     }
