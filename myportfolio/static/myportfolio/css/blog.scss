@@ -1,0 +1,13 @@
+@import "./variables";
+
+div {
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    background-color: $primary-color;
+
+    h1 {
+        position: relative;
+        top: 300px;
+    }
+}

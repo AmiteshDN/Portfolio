@@ -1,0 +1,114 @@
+/* Colors */
+/* Font Family */
+/* Web Font size */
+/* Tablet font size */
+/* Tablet landscape font size */
+/* Mobile Font size */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  header {
+    background: #F6F6F6;
+  }
+  header a {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #394750 !important;
+  }
+  header .banner {
+    padding: 10vh 0;
+  }
+  header .banner h1 {
+    font-size: 36px;
+  }
+  header .banner .pdf .resume {
+    box-shadow: 0px 1.5px 2.5px gray;
+    padding: 1em 2em;
+    font-size: 14px;
+    border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  header .banner img {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 13px black;
+    margin: 1.5em;
+  }
+  #experience p {
+    font-size: 14px;
+  }
+  #experience h3 {
+    font-size: 26px;
+  }
+  #experience .project1 {
+    padding-top: 8em !important;
+  }
+  #experience .project1 .exp-img {
+    margin-left: 1.5em;
+  }
+  #experience .project2, #experience .project3 {
+    padding: 4em !important;
+  }
+  #experience .project2 .desc {
+    padding-left: 2em;
+  }
+  #experience .project3 .exp-img {
+    margin-left: 1.5em;
+  }
+  #experience .row .desc {
+    line-height: 1.5em;
+  }
+  #experience .row .desc .btn {
+    font-size: 14px;
+  }
+  #myskills {
+    padding: 6em 4em;
+  }
+  #myskills .row p {
+    padding-left: 0.5em;
+    font-size: 14px;
+  }
+  #myskills .row table td div {
+    width: 24em;
+    height: 1.5em;
+    box-shadow: 0px 1px 3px gray;
+  }
+  #myskills .row .tools table {
+    margin-left: 0;
+  }
+  #myskills .row .tools table td {
+    text-align: center;
+  }
+  #myskills .row .tools table td p {
+    padding-left: 0;
+    font-size: 14px;
+  }
+  #myskills .row .tools img {
+    width: 5em;
+    height: 5em;
+  }
+  #achievements {
+    padding: 5em 0 5em;
+  }
+  #achievements h3 {
+    font-size: 26px !important;
+  }
+  #achievements h2 {
+    font-size: 30px !important;
+  }
+  #about {
+    padding: 6em 4em;
+    font-size: 30px;
+  }
+  #about h3 {
+    font-size: 26px;
+  }
+  footer {
+    font-size: 16px;
+    padding: 35px 0;
+  }
+  footer .contact {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=tabletLandscape.css.map */

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Exo+2:wght@400;500;700&family=Noto+Serif&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'myportfolio/css/styles.css' %}">
+    <title>Amitesh Veeragattam</title>
+    <script src="https://kit.fontawesome.com/ef055d91c3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link blog" href="{% url 'blog' %}">Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link exp" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myskills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/coward_quotes/" target="_blank">Coward
+                            Quotes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row banner">
+            <div class="col-lg-6 greet" style="text-align: center;">
+                <div>
+                    <h1>Hi! I am</h1>
+                    <h1><b>Amitesh Veeragattam,</b></h1>
+                    <h1><span id="software" style="font-family: 'Courier New', Courier, monospace ;"></span> Developer.
+                    </h1>
+                    <div class="pdf">
+                        <a href="{% static 'myportfolio/images/Experienced Resume.pdf' %}" class="resume"
+                            download>Resume  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 profile" style="text-align: center;">
+                <img class="" src="{% static 'myportfolio/images/profile.jpg' %}" alt="Profile Photo" />
+            </div>
+        </div>
+    </header>
+    <!-- Experience -->
+    <section id="experience" class="">
+        <div class="project0">
+            <h2><b>Experience</b></h2>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 proj-img">
+                    <img class="exp-img" src="{% static 'myportfolio/images/BMR.png' %}" alt="sdwan">
+                </div>
+                <div class="col-lg-6 col-xs-12 desc">
+                    <h3>1. IDrive</h3>
+                    <p class="">
+                        <b>Duration:</b> February 2023 - December 2023
+                        <br>
+                        <b>Organisation:</b> IDrive Software India
+                        <br>
+                        <b>Description:</b> iDrive Software India is a product-based company specializing in cloud backup and storage solutions. 
+                        Well-known for its Remote PC, E2, and iDrive BMR products, the company excels in delivering cutting-edge solutions 
+                        for data management and protection.
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#project0" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Roles and Responsibilities
+                            </a>
+                          </p>
+                          <div class="collapse" id="project0">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Utilized Python as the primary programming language for backend development.</li>
+                                    <li>Emphasized writing clean, efficient, and reusable code to ensure maintainability and scalability.</li>
+                                    <li>Engaged in feature development and continuous improvement efforts, enhancing the overall functionality of the backend systems.</li>
+                                    <li>Developed standalone automation scripts to streamline processes and improve overall system efficiency.</li>
+                                    <li>Successfully resolved user issues, demonstrating a proactive approach to ensuring a seamless user experience.</li>
+                                </ul>
+                            </div>
+                          </div>  
+                    </p>
+                </div> 
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="project1">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 desc">
+                    <h3>2. SDWAN (Software Defined Wide Area Network)</h3>
+                    <p class="">
+                        <b>Duration:</b> April 2021 - February 2023
+                        <br>
+                        <b>Organisation:</b> Tata Consultancy Services
+                        <br>
+                        <b>Description:</b> SDWAN, or Software-Defined Wide Area Networking, is a technology 
+                        that enhances network performance by intelligently directing traffic across the most efficient routes, 
+                        providing improved connectivity and agility for distributed enterprises.
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#project1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Roles and Responsibilities
+                            </a>
+                          </p>
+                          <div class="collapse" id="project1">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Served as a Python Developer in a research and development project at TCS.</li>
+                                    <li>Daily tasks involved the development of REST APIs using Python and the Flask framework.</li>
+                                    <li>Contributed to the project by leveraging third-party REST APIs from Versa Networks.</li>
+                                    <li>Developed a custom Python framework for deploying controllers and network branches.</li>
+                                    <li>Played a key role in the testing phase of REST APIs, ensuring the robustness and reliability of the developed solutions in the SDWAN environment.</li>
+                                    <li>Utilized tools such as GIT, POSTMAN, and Visual Studio Code for version control, API testing, and code development.</li>
+                                    <li>Worked with Python modules, including requests, json, os, prettytable, and subprocess, showcasing versatility in Python development.</li>
+                                    <li>Ensured proper documentation of code, enhancing team collaboration and future reference.</li>
+                                </ul>
+                            </div>
+                          </div>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xs-12 proj-img">
+                    <img class="exp-img" src="{% static 'myportfolio/images/sdwan.gif' %}" alt="sdwan">
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="project2">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 proj-img">
+                    <img class="exp-img" src="{% static 'myportfolio/images/frontend.png' %}" alt="sdwan">
+                </div>
+                <div class="col-lg-6 col-xs-12 desc">
+                    <h3>3. INSPECS grp plc</h3>
+                    <p class="">
+                        <b>Duration:</b> December 2020 - April 2021
+                        <br>
+                        <b>Organisation:</b> Investis Digital India
+                        <br>
+                        <b>Description:</b> Collaborated with Inspecs Group Plc, a prominent eyewear company, 
+                        to revamp and enhance their digital presence through the implementation of our proprietary CMS
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#project2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Roles and Responsibilities
+                            </a>
+                          </p>
+                          <div class="collapse" id="project2">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Contributed as a Front-End Developer in the development of components for the company's proprietary CMS, Investis Drupal.</li>
+                                    <li>Proficiently worked with technologies including HTML, CSS, SASS, Bootstrap, JavaScript, and jQuery.</li>
+                                    <li>Utilized GIT for effective version control, ensuring collaborative and streamlined development processes.</li>
+                                </ul>
+                            </div>
+                          </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="project3">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 desc">
+                    <h3>4. VIFOR Pharma</h3>
+                    <p class="">
+                        <b>Duration:</b> December 2020 - April 2021
+                        <br>
+                        <b>Organisation:</b> Investis Digital India
+                        <br>
+                        <b>Description:</b> Collaborated with Vifor Pharma grp, a prominent pharma company, 
+                        to revamp and enhance their digital presence through the implementation of our proprietary CMS
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#project3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                              Roles and Responsibilities
+                            </a>
+                          </p>
+                          <div class="collapse" id="project3">
+                            <div class="card card-body">
+                                <ul>
+                                    <li>Contributed as a Front-End Developer in the development of components for the company's proprietary CMS, Investis Drupal.</li>
+                                    <li>Proficiently worked with technologies including HTML, CSS, SASS, Bootstrap, JavaScript, and jQuery.</li>
+                                    <li>Utilized GIT for effective version control, ensuring collaborative and streamlined development processes.</li>
+                                </ul>
+                            </div>
+                          </div>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-xs-12 proj-img">
+                    <img class="exp-img" src="{% static 'myportfolio/images/frontend.png' %}" alt="sdwan">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    
+    <!-- My Skills -->
+    <section id="myskills" class=""> 
+        <h2><b>Skills</b></h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <p><b>Technologies:</b></p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Python</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 80%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Flask</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 75%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>REST API</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 80%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Cloud</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 30%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Javascript</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 65%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>HTML/CSS</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 85%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 70%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Django</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 50%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Networking</td>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar  bg-success" role="progressbar" style="width: 50%"
+                                        aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-6 tools">
+                <p><b>Tools & Softwares:</b> </p>
+                <div class="softwares">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="{% static 'myportfolio/images/github.jpg' %}" alt="github">
+                                    <p>Github</p>
+                                </td>
+                                <td>
+                                    <img src="{% static 'myportfolio/images/vsc.png' %}" alt="vsc">
+                                    <p>VS Code</p>
+                                </td>
+                                <td>
+                                    <img src="{% static 'myportfolio/images/postman.png' %}" alt="postman">
+                                    <p>Postman</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="{% static 'myportfolio/images/linux.jpg' %}" alt="linux">
+                                    <p>Linux</p>
+                                </td>
+                                <td>
+                                    <img src="{% static 'myportfolio/images/xd.png' %}" alt="adobexd">
+                                    <p>Adobe XD</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Achievements -->
+
+<div id="achievements">
+    <h2><b>Achievements</b></h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <h2>"Best Team Award" - TCS</h2>
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <h2>"Fit Feb 2021 Winners" - IDX</h2>
+          </div>
+          <div class="carousel-item">
+            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+            <h2>"College Sports Coordinator" - UG</h2>
+          </div>
+        </div>
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+      </div>
+    </div>
+
+    <!-- About me -->
+    <section id="about" class="">
+        <h2><b>About Me</b></h2>
+        <div class="greet">
+            <h3>Hi,
+                <br>
+                <br>
+                I'm a backend developer who loves using Flask, Django, and Python to develop technological solutions. 
+                What energizes me the most? Well, I'm not just into code; I also love cricket! 
+                When I'm not immersed in coding, you can find me on the cricket pitch, or practicing my artistic side 
+                through writing and sketching. Did I also mention that I'm fascinated by astronomy? I bring to the room 
+                a combination of technical expertise and artistic flair, no matter if it is in code, cricket, or art. 
+                Let's talk about technology, sports, or the mysteries of the cosmos!
+            </h3>
+        </div>
+    </section>
+    <footer>
+        <p class="chat">Still got questions about me? <br>
+            Or wanted to discuss Astronomy, Cricket or just chat?
+        </p>
+        <a href="mailto: vdnamitesh@gmail.com" class="contact">Get In Touch</a><br>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/vdn-amitesh/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/Amiteshvdn" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://github.com/AmiteshDN" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <!-- <a href="">Hackerrank</a> -->
+            <a href="https://www.instagram.com/amiteshvdn/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.facebook.com/AmiteshDN" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+        </div>
+        <p> &copy; 2024 Amitesh Veeragattam</p>
+    </footer>
+    <script src="{% static 'myportfolio/js/index.js' %}" type="text/javascript"></script>
+    <!-- Preloaded Javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
+
+</html>
